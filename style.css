@@ -70,6 +70,14 @@ main {
     margin: 5px;
 }
 
+/* bouton clicked */
+
+button.active {
+    background-color: black;
+    color: white;
+}
+
+
 /* section cards ------------------------------------------------------*/
 
 #cards {
