@@ -1,19 +1,75 @@
-const filterButton = document.getElementsByClassName('.filter_button');
+// Activation bouton
 
-console.log('Dehors');
-
-filterButton.addEventListener("click", function () {
-    console.log('Dedans');
-    filterButton.classList.toggle("active");
-});
+const filterButtons = document.querySelectorAll('.filterButton');
 
 
-const button = document.getElementById('btnChnage');
 
-button.addEventListener('click', function () {
-    const lis = document.getElementsByClassName('menu'); // class=menu horizontal
+for (let i = 0; i < filterButtons.length; i++) {
+    filterButtons[i].addEventListener('click', function () {
+        filterButtons[i].classList.toggle('active');
+    })
+};
 
-    for (const li of lis) {
-        li.classList.toggle('horizontal');
+// Affichage cartes wild
+
+const wildButton = document.getElementById('wild');
+const wildCard = document.querySelectorAll('.wild');
+
+console.log(wildCard.length);
+
+wildButton.addEventListener('click', function () {
+    for (let i = 0; i < wildCard.length; i++) {
+        wildCard[i].classList.toggle('invisible');
     }
-});
+})
+
+// Affichage cartes wilder
+
+const wilderButton = document.getElementById('wilder');
+const wilderCard = document.querySelectorAll('.wilder');
+
+console.log(wilderCard.length);
+
+wilderButton.addEventListener('click', function () {
+    for (let i = 0; i < wilderCard.length; i++) {
+        wilderCard[i].classList.toggle('invisible');
+    }
+})
+
+// Affichage cartes facile
+
+const facileButton = document.getElementById('facile');
+const facileCard = document.querySelectorAll('.facile');
+
+console.log(wilderCard.length);
+
+facileButton.addEventListener('click', function () {
+    for (let i = 0; i < facileCard.length; i++) {
+        facileCard[i].classList.toggle('invisible');
+    }
+})
+
+// Affichage cartes intermédiaire
+
+const interButton = document.getElementById('intermediaire');
+const interCard = document.querySelectorAll('.intermediaire');
+
+console.log(interCard.length);
+
+interButton.addEventListener('click', function () {
+    for (let i = 0; i < interCard.length; i++) {
+        interCard[i].classList.toggle('invisible');
+    }
+})
+
+// Affichage cartes difficile
+const difficileButton = document.getElementById('difficile');
+const difficileCard = document.querySelectorAll('.difficile');
+
+console.log(difficileCard.length);
+
+difficileButton.addEventListener('click', function () {
+    for (let i = 0; i < difficileCard.length; i++) {
+        difficileCard[i].classList.toggle('invisible');
+    }
+})

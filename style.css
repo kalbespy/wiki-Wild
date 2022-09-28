@@ -56,7 +56,7 @@ main {
     margin-bottom: 8px
 }
 
-.tag>button {
+.tags>button {
     margin-right: 10px;
     background-color: #E2E2E2;
     height: 35px;
@@ -89,9 +89,15 @@ button.active {
 .card {
     width: 100%;
     margin-bottom: 24px;
-    height: 320px;
+    height: 20px;
+    /* 320px initial*/
     border: solid 1px black;
     border-radius: 10px;
+}
+
+/* cards invisibkes */
+.card.invisible {
+    display: none;
 }
 
 /*footer (to be removed)------------------------------------------------------*/

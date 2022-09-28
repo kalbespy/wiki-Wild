@@ -27,31 +27,32 @@
         <section id="filter">
             <div class="filterSection">
                 <h2>Filtrer par source</h2>
-                <div class="tag">
-                    <button class="filter_button"> <span class=buttonText>Wild</span></button>
-                    <button class="filter_button"> <span class=buttonText>Wilders</span></button>
+                <div class="tags">
+                    <button id='wild' class="filterButton active"> <span class=buttonText>Wild</span></button>
+                    <button id='wilder' class="filterButton active"> <span class=buttonText>Wilders</span></button>
                 </div>
             </div>
             <div class="filterSection">
                 <h2>Filtrer par difficulté</h2>
-                <div class="tag">
-                    <button class="filter_button"> <span class=buttonText>Facile </span></button>
-                    <button class="filter_button"> <span class=buttonText>Intermédaire </span></button>
-                    <button class="filter_button"> <span class=buttonText>Difficile</span> </button>
-                    <button class="filter_button"> TEST </button>
+                <div class="tags">
+                    <button id="facile" class="filterButton active"> <span class=buttonText>Facile </span></button>
+                    <button id="intermediaire" class="filterButton active"> <span class=buttonText>Intermédiaire
+                        </span></button>
+                    <button id="difficile" class="filterButton active"> <span class=buttonText>Difficile</span>
+                    </button>
                 </div>
             </div>
         </section>
 
         <section id="cards">
-            <div class="card"> Card 1 </div>
-            <div class="card"> Card 2 </div>
-            <div class="card"> Card 3 </div>
-            <div class="card"> Card 4 </div>
-            <div class="card"> Card 5 </div>
-            <div class="card"> Card 6 </div>
-            <div class="card"> Card 7 </div>
-            <div class="card"> Card 8 </div>
+            <div class="card wild intermediaire invisible"> Card 1 (wild intermediaire) </div>
+            <div class="card wilder facile invisible"> Card 2 (wilder facile) </div>
+            <div class="card wild difficile invisible"> Card 3 (wild difficile) </div>
+            <div class="card wilder difficile invisible"> Card 4 (wilder difficile)</div>
+            <div class="card wild intermediaire invisible"> Card 5 (wild intermediaire) </div>
+            <div class="card wilder intermediaire invisible"> Card 6 (wilder intermédiaire visible)</div>
+            <div class="card wild facile invisible"> Card 7 (wild facile) </div>
+            <div class="card wilder difficile invisible"> Card 8 (wilder difficile) </div>
         </section>
     </main>
 
