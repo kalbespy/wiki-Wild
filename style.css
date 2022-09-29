@@ -1,21 +1,48 @@
+/* // Général // */
+
 * {
     margin: 0px;
     font-family: 'Barlow', sans-serif;
 }
 
-a {
-    z-index: 10;
-    text-decoration: none;
-    color: #000;
+h3 {
+    font: 500 24px Barlow;
+    padding-bottom: 16px;
 }
+
+p {
+    font: 500 16px Barlow;
+    padding-bottom: 16px;
+}
+
+
+/* // Bloc d'article // */
+
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+section {
+    max-width: 1100px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+/* // Article // */
+
 
 article {
     min-width: 310px;
     width: 310px;
     border-radius: 10px;
-    background-color: #E2E2E2;
+    background-color: #e2e2e2;
     transition: 0.1s;
     height: 450px;
+    margin: 25px;
 }
 
 img {
@@ -34,22 +61,10 @@ img {
     justify-content: flex-end;
 }
 
-.js1 {
-    background-image: url(/assets/js_vignette_01.jpg);
-}
-
-.js2 {
-    background-image: url(/assets/js_vignette_02.jpg);
-}
-
-.js3 {
-    background-image: url(/assets/js_vignette_03.jpg);
-}
-
-
-.categoryFilter {
-    display: flex;
-
+a {
+    z-index: 10;
+    text-decoration: none;
+    color: #000;
 }
 
 .btnFilter {
@@ -68,50 +83,32 @@ img {
     padding: 20px;
 }
 
-h3 {
-    font: 500 28px Barlow;
-    padding-bottom: 16px;
+.categoryFilter {
+    display: flex;
 }
 
-p {
-    font: 500 16px Barlow;
-    padding-bottom: 16px;
-}
+
+/* // Hover // */
 
 article:hover {
-    box-shadow: 0px 15px 15px rgb(181, 181, 181);
-    transform: translateY(-10px);
+    box-shadow: 1px 15px 30px rgb(216, 216, 216);
+    transform: translateY(-15px);
     transition: 0.2s;
 }
 
-@media only screen and (max-width: 1023px) {
 
+/* // Liste des liens ! // */
 
-    section {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-
-    article {
-        margin-top: 15px;
-        margin-bottom: 15px;
-    }
-
-
+.js1 {
+    background-image: url(/assets/js_vignette_01.jpg);
 }
 
-@media only screen and (min-width: 1024px) {
-
-    section {
-        display: flex;
-        justify-content: center;
-    }
-
-    article {
-        margin: 25px;
-    }
-
-
+.js2 {
+    background-image: url(/assets/js_vignette_02.jpg);
 }
+
+.js3 {
+    background-image: url(/assets/js_vignette_03.jpg);
+}
+
+/* // Fin de la liste des liens // */
