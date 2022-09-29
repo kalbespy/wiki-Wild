@@ -37,43 +37,56 @@ wilderButton.addEventListener('click', function () {
     }
 })
 
-// Affichage cartes facile
+// Affichage cartes rtfm
 
-const facileButton = document.getElementById('facile');
-const facileCard = document.querySelectorAll('.facile');
+const rtfmButton = document.getElementById('rtfm');
+const rtfmCard = document.querySelectorAll('.rtfm');
 
-console.log(wilderCard.length);
+console.log(rtfmCard.length);
 
-facileButton.addEventListener('click', function () {
-    for (let i = 0; i < facileCard.length; i++) {
-        facileCard[i].classList.toggle('difficultyInvisible');
+rtfmButton.addEventListener('click', function () {
+    for (let i = 0; i < rtfmCard.length; i++) {
+        rtfmCard[i].classList.toggle('typeInvisible');
     }
 })
 
-// Affichage cartes intermédiaire
+// Affichage cartes article
 
-const interButton = document.getElementById('intermediaire');
-const interCard = document.querySelectorAll('.intermediaire');
+const articleButton = document.getElementById('article');
+const articleCard = document.querySelectorAll('.article');
 
-console.log(interCard.length);
+console.log(articleCard.length);
 
-interButton.addEventListener('click', function () {
-    for (let i = 0; i < interCard.length; i++) {
-        interCard[i].classList.toggle('difficultyInvisible');
+articleButton.addEventListener('click', function () {
+    for (let i = 0; i < articleCard.length; i++) {
+        articleCard[i].classList.toggle('typeInvisible');
     }
 })
 
-// Affichage cartes difficile
-const difficileButton = document.getElementById('difficile');
-const difficileCard = document.querySelectorAll('.difficile');
+// Affichage cartes video
+const videoButton = document.getElementById('video');
+const videoCard = document.querySelectorAll('.video');
 
-console.log(difficileCard.length);
+console.log(videoCard.length);
 
-difficileButton.addEventListener('click', function () {
-    for (let i = 0; i < difficileCard.length; i++) {
-        difficileCard[i].classList.toggle('difficultyInvisible');
+videoButton.addEventListener('click', function () {
+    for (let i = 0; i < videoCard.length; i++) {
+        videoCard[i].classList.toggle('typeInvisible');
     }
 })
+
+// Affichage cartes jeux
+const jeuButton = document.getElementById('jeux');
+const jeuCard = document.querySelectorAll('.jeux');
+
+console.log(jeuCard.length);
+
+jeuButton.addEventListener('click', function () {
+    for (let i = 0; i < jeuCard.length; i++) {
+        jeuCard[i].classList.toggle('typeInvisible');
+    }
+})
+
 
 // Affichage "Pas de ressource" texte
 // const avec .sourceinvisble et .difficultéinvisible

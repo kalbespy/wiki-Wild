@@ -63,6 +63,7 @@ main {
 
 .tags>button {
     margin-right: 10px;
+    margin-bottom: 10px;
     background-color: black;
     height: 35px;
     min-width: 50px;
@@ -100,25 +101,18 @@ button.active {
     border-radius: 10px;
 }
 
-/* cards sources invisibles */
+/* cards source invisibles */
 .card.sourceInvisible {
     display: none;
 }
 
-/* cards difficulté invisibles */
-.card.difficultyInvisible {
+/* cards type invisibles */
+.card.typeInvisible {
     display: none;
 }
-
-/* cards difficulté invisibles */
-#noCards {
-    display: none;
-}
-
 
 /* Paragraphe No ressources */
-
-.invisible {
+#noCards {
     display: none;
 }
 
@@ -131,5 +125,5 @@ footer {
 
 
 
-/* Responsive  ------------------------------------------------------*/
+/* Responsive  (TBD) ------------------------------------------------------*/
 @media screen and (min-width: 768px) {}
