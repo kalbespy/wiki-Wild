@@ -3,13 +3,9 @@
     font-family: 'Barlow', sans-serif;
 }
 
-main {
-    display: flex;
-    justify-content: center;
-}
-
 section {
     display: flex;
+    justify-content: center;
 }
 
 a {
@@ -31,14 +27,47 @@ img {
     border-radius: 10px 10px 0px 0px;
 }
 
-#jsArticle1 {
-    height: 200px;
+
+.jsArticle {
+    height: 220px;
     border-radius: 10px 10px 0px 0px;
-    background-image: url(https://loremflickr.com/cache/resized/65535_51712073098_0e8350eb0c_h_1200_300_nofilter.jpg);
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
+
+.js1 {
+    background-image: url(/assets/js_vignette_01.jpg);
+}
+
+.js2 {
+    background-image: url(/assets/js_vignette_02.jpg);
+}
+
+.js3 {
+    background-image: url(/assets/js_vignette_03.jpg);
+}
+
+
+.categoryFilter {
+    display: flex;
+
+}
+
+.btnFilter {
+    color: #fff;
+    padding: 10px;
+    background-color: #000;
+    border-radius: 50px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
 
 .articleDescription {
     padding: 20px;
@@ -46,12 +75,12 @@ img {
 
 h3 {
     font: 500 28px Barlow;
-    padding-bottom: 20px;
+    padding-bottom: 16px;
 }
 
 p {
     font: 500 16px Barlow;
-    padding-bottom: 20px;
+    padding-bottom: 16px;
 }
 
 article:hover {
