@@ -1,1 +1,61 @@
+* {
+    margin: 0px;
+    font-family: 'Barlow', sans-serif;
+}
 
+main {
+    display: flex;
+    justify-content: center;
+}
+
+section {
+    display: flex;
+}
+
+a {
+    z-index: 10;
+    text-decoration: none;
+    color: #000;
+}
+
+article {
+    width: 320px;
+    border-radius: 10px;
+    background-color: #E2E2E2;
+    margin: 25px;
+    transition: 0.1s;
+    height: 450px;
+}
+
+img {
+    border-radius: 10px 10px 0px 0px;
+}
+
+#jsArticle1 {
+    height: 200px;
+    border-radius: 10px 10px 0px 0px;
+    background-image: url(https://loremflickr.com/cache/resized/65535_51712073098_0e8350eb0c_h_1200_300_nofilter.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+.articleDescription {
+    padding: 20px;
+}
+
+h3 {
+    font: 500 28px Barlow;
+    padding-bottom: 20px;
+}
+
+p {
+    font: 500 16px Barlow;
+    padding-bottom: 20px;
+}
+
+article:hover {
+    box-shadow: 0px 15px 15px rgb(181, 181, 181);
+    transform: translateY(-10px);
+    transition: 0.2s;
+}
