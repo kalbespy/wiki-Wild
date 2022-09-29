@@ -5,6 +5,25 @@
     font-family: 'Barlow', sans-serif;
 }
 
+header {
+    margin-left: 25px;
+}
+
+h1 {
+    margin-top: 24px;
+    margin-bottom: 24px;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+body {
+    background-color: #FFF;
+    display: flex;
+    justify-content: center;
+}
+
 h3 {
     font: 500 24px Barlow;
     padding-bottom: 16px;
@@ -12,20 +31,53 @@ h3 {
 
 p {
     font: 500 16px Barlow;
-    padding-bottom: 16px;
 }
+
+main {
+    max-width: 1100px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+section#filter {
+    margin-left: 25px;
+}
+
+button,
+p {
+    font: 500 16px Barlow;
+}
+
+.filterSection {
+    margin-bottom: 24px
+}
+
+.filterSection>h2 {
+    margin-bottom: 8px
+}
+
+.tags>button {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: black;
+    height: 35px;
+    min-width: 50px;
+    color: white;
+    border-radius: 50px;
+    border: none;
+}
+
+.buttonText {
+    margin: 5px;
+}
+
+
 
 
 /* // Bloc d'article // */
 
 
-main {
-    display: flex;
-    justify-content: center;
-}
-
-section {
-    max-width: 1100px;
+section.article {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -44,6 +96,11 @@ article {
     height: 450px;
     margin: 25px;
 }
+
+p.articleText {
+    padding-bottom: 16px;
+}
+
 
 img {
     border-radius: 10px 10px 0px 0px;
@@ -112,3 +169,13 @@ article:hover {
 }
 
 /* // Fin de la liste des liens // */
+
+@media screen and (min-width: 768px) {
+
+    h1 {
+        font-size: 80px;
+    }
+
+
+
+}
