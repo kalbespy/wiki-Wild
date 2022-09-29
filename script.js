@@ -10,6 +10,7 @@ for (let i = 0; i < filterButtons.length; i++) {
     })
 };
 
+
 // Affichage cartes wild
 
 const wildButton = document.getElementById('wild');
@@ -19,7 +20,7 @@ console.log(wildCard.length);
 
 wildButton.addEventListener('click', function () {
     for (let i = 0; i < wildCard.length; i++) {
-        wildCard[i].classList.toggle('invisible');
+        wildCard[i].classList.toggle('sourceInvisible');
     }
 })
 
@@ -32,7 +33,7 @@ console.log(wilderCard.length);
 
 wilderButton.addEventListener('click', function () {
     for (let i = 0; i < wilderCard.length; i++) {
-        wilderCard[i].classList.toggle('invisible');
+        wilderCard[i].classList.toggle('sourceInvisible');
     }
 })
 
@@ -45,7 +46,7 @@ console.log(wilderCard.length);
 
 facileButton.addEventListener('click', function () {
     for (let i = 0; i < facileCard.length; i++) {
-        facileCard[i].classList.toggle('invisible');
+        facileCard[i].classList.toggle('difficultyInvisible');
     }
 })
 
@@ -58,7 +59,7 @@ console.log(interCard.length);
 
 interButton.addEventListener('click', function () {
     for (let i = 0; i < interCard.length; i++) {
-        interCard[i].classList.toggle('invisible');
+        interCard[i].classList.toggle('difficultyInvisible');
     }
 })
 
@@ -70,6 +71,10 @@ console.log(difficileCard.length);
 
 difficileButton.addEventListener('click', function () {
     for (let i = 0; i < difficileCard.length; i++) {
-        difficileCard[i].classList.toggle('invisible');
+        difficileCard[i].classList.toggle('difficultyInvisible');
     }
 })
+
+// Affichage "Pas de ressource" texte
+// const avec .sourceinvisble et .difficultéinvisible
+// si const.legth

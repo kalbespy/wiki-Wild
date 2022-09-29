@@ -3,7 +3,7 @@
 * {
     font-family: 'Barlow', sans-serif;
     /*border: solid 1px black;*/
-    margin: 0
+    margin: 0;
 }
 
 /* navigation (to be removed) ------------------------------------------------------*/
@@ -22,6 +22,11 @@ body {
     background-color: #FFF;
 }
 
+/* Bouton et Paragraphe ------------------------------------------------------*/
+button,
+p {
+    font: 500 16px Barlow;
+}
 
 /* header ------------------------------------------------------*/
 header {
@@ -58,10 +63,10 @@ main {
 
 .tags>button {
     margin-right: 10px;
-    background-color: #E2E2E2;
+    background-color: black;
     height: 35px;
     min-width: 50px;
-    color: black;
+    color: white;
     border-radius: 50px;
     border: none;
 }
@@ -70,11 +75,11 @@ main {
     margin: 5px;
 }
 
-/* bouton clicked */
+/* bouton filtre désactivé */
 
 button.active {
-    background-color: black;
-    color: white;
+    background-color: #E2E2E2;
+    color: black;
 }
 
 
@@ -95,10 +100,28 @@ button.active {
     border-radius: 10px;
 }
 
-/* cards invisibkes */
-.card.invisible {
+/* cards sources invisibles */
+.card.sourceInvisible {
     display: none;
 }
+
+/* cards difficulté invisibles */
+.card.difficultyInvisible {
+    display: none;
+}
+
+/* cards difficulté invisibles */
+#noCards {
+    display: none;
+}
+
+
+/* Paragraphe No ressources */
+
+.invisible {
+    display: none;
+}
+
 
 /*footer (to be removed)------------------------------------------------------*/
 footer {
