@@ -1,10 +1,11 @@
-/* ----BODY----- */
+
+/* ----BODY----- 
 *{
     margin: 0;
 }
 body{
     margin: 0;
-}
+}*/
 a {
     text-decoration: none;
     color: #000000;
@@ -45,7 +46,7 @@ nav ul{
     font-size: 20px;
 }
 
-img{
+img.second-img-nav{
     margin-left: 10px;
 }
 
@@ -105,14 +106,6 @@ transform: translateY(0) rotate(-135deg);
     margin: 35px 0 0 15px;
 }
 
-/* ---SECTION--- */
-
-section{
-    width: 100%;
-    height: 700px;
-    background: salmon;
-}
-
 /* ---FOOTER--- */
 
 footer{
@@ -139,6 +132,287 @@ footer{
 
 ul{
     padding: 10px 0 10px 15px;
+}
+
+/* ---BREAKPOINT--- */
+
+@media screen and (min-width: 1024px) {
+    /* ---NAV--- */
+    .nav-toggler{
+        display: none;
+    }
+
+    nav {
+        transition: none;
+        max-height: 40px;
+        background: #e2e2e2;
+        width: 100vw;
+        min-height: 80px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row-reverse;
+        transform: none;
+    }
+
+    nav ul{
+        display: flex;
+        justify-content: space-around;
+        padding: 0;
+        width: 40%;
+    }
+
+    img.second-img-nav{
+        margin: 0;
+        padding: 0 0 0 25px;
+    }
+
+    /* ---FOOTER--- */
+
+    footer{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    ul{
+        padding: 15px 0 15px 85px;
+    }
+    
+    footer ul{
+
+    }
+
+    .container-footer{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+
+    .img-footer-top{
+        padding: 0 15px 0 0;
+    }
+
+}
+
+body{
+    margin-left: 20%;
+    margin-right: 20%
+     
+}
+h1{
+    text-align: center;
+}
+h2{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+#php{
+    width: 300px;
+    height: 650px;
+    margin: auto;
+}
+.php{
+    height: 600px;
+    width: 300px;
+    
+
+}
+
+.phpImg{
+     height: 250px;
+     width: 300px;
+     background-color: darkgrey;
+    /* * background-image: url(assets/phpMobileR.png); */
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: 50% 50%; 
+    
+}
+.phpText{
+    height: 390px;
+    width: 300px;
+    background-color: darkgrey;
+}
+
+#javascript{
+    width: 300px;
+    height: 650px;
+    margin: auto;
+}
+
+.javascript{
+    height: 600px;
+    width: 300px;
+
+}
+
+.javascriptImg{
+     height: 250px;
+     width: 300px;
+     background-color: darkgrey;
+     background-image: url(assets/javascriptMobile.png);
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: 50% 50%; 
+
+}
+.javascriptText{
+    height: 390px;
+    width: 100%;
+    background-color: darkgray;
+}
+#htmlCss{
+    width: 300px;
+    height: 500px;
+    margin: auto;
+}
+
+.htmlCss{
+    height: 650px;
+    width: 300px;
+
+}
+
+.htmlCssImg{
+     height: 250px;
+     width: 300px;
+     background-color: darkgrey;
+     background-image: url(assets/htmlMobile.png);
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: 50% 50%; 
+     
+}
+.htmlCssText{
+    height: 390px;
+    width: 300px;
+    background-color:darkgrey;
+}
+.buttonHome{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    height: 30px;
+    background-color: white;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+/* le dark mode */
+.dark {
+    background-color: #112F41;
+    color: #ffffff;
+  }
+  
+.dark {
+    background-image: url(assets/theme2.jpg);
+    color: #fff;
+  }
+  
+@media screen  and (min-width:1024px){
+
+    #php{
+    
+    width: 900px;
+    height: 380px;
+}
+.php{
+    display: flex;
+    height: 350px;
+    width: 100%;
+
+}
+
+.phpImg{
+     height: 350px;
+     width: 40%;
+     background-color: darkgrey;
+}
+.phpText{
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    width: 60%;
+    background-color: darkgray;
+    justify-content: center;
+}
+h2{
+    
+    padding-left: 30px;
+    text-align: left;
+}
+.buttonHome{
+   
+    margin-left: 30px;
+    border-radius: 30px;
+}
+p{
+    padding-left: 30px;
+    text-align: left;
+    margin-right: 100px;
+    
+}
+/* home javascript*/
+#javascript{
+    
+    width: 900px;
+    height: 380px;
+}
+.javascript{
+    display: flex;
+    height: 350px;
+    width: 100%;
+
+}
+
+.javascriptImg{
+     height: 350px;
+     width: 40%;
+     background-color: darkgrey;
+}
+.javascriptText{
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    width: 60%;
+    background-color: darkgrey;
+    justify-content: center;
+}
+
+
+/*home htmlCss*/
+#htmlCss{
+    
+    width: 900px;
+    height: 380px;
+}
+.htmlCss{
+    display: flex;
+    height: 350px;
+    width: 100%;
+
+}
+
+.htmlCssImg{
+     height: 350px;
+     width: 40%;
+     background-color: darkgrey;
+     
+}
+.htmlCssText{
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    width: 60%;
+    background-color: darkgrey;
+    justify-content: center;
+}
+
 }
 
 /* ---BREAKPOINT--- */
