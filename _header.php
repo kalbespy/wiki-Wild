@@ -1,5 +1,5 @@
 <nav id="navbar">
-    <button class="btn-dark-mode">dark mode</button>
+    <button class="btn-dark-mode" id="mode"><span>Thème sombre</span></button>
     <ul class="ul-position-nav ul-nav">
         <li><a href="" class="nav-a-size position">Acceuil</a></li>
         <li><a href="" class="nav-a-size position">PHP</a></li>
