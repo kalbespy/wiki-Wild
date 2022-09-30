@@ -7,8 +7,9 @@
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
+
 <body >
-    
+    <?php include("_header.php"); ?>
     <h1>Bienvenue sur wikiWild !</h1>
     <section id="php">
         <div class="php">
@@ -45,6 +46,7 @@
             </div>
         </div>
 </section>
+<?php include("_footer.php"); ?>
 <button  id="mode"> <span>Thème sombre</span></button>
 <script src="script.js"></script>
 </body>

@@ -1,3 +1,14 @@
+
+const hamburgerBouton = document.querySelector(".nav-toggler")
+
+const navigation = document.querySelector("nav")
+
+hamburgerBouton.addEventListener("click", toggleNav)
+
+function toggleNav(){
+    hamburgerBouton.classList.toggle("active")
+    navigation.classList.toggle("active")
+}
 let button = document.querySelector('#mode');
 let span   = document.querySelector('span');
 
@@ -23,5 +34,4 @@ function modeSombre() {
   span.textContent = 'Thème clair';
   localStorage.setItem('theme', 'sombre');
 }
-
 
