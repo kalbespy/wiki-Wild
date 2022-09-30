@@ -1,1 +1,215 @@
+body{
+    margin-left: 20%;
+    margin-right: 20%
+     
+}
+h1{
+    text-align: center;
+}
+h2{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+#php{
+    width: 100%;
+    height: 650px;
+}
+.php{
+    height: 600px;
+    width: 100%;
+    
 
+}
+
+.phpImg{
+     height: 250px;
+     width: 100%;
+     background-color: darkgrey;
+    /* * background-image: url(assets/phpMobileR.png); */
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: 50% 50%; 
+    
+}
+.phpText{
+    height: 390px;
+    width: 100%;
+    background-color: darkgrey;
+}
+
+#javascript{
+    width: 100%;
+    height: 650px;
+}
+
+.javascript{
+    height: 600px;
+    width: 100%;
+
+}
+
+.javascriptImg{
+     height: 250px;
+     width: 100%;
+     background-color: darkgrey;
+     background-image: url(assets/javascriptMobile.png);
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: 50% 50%; 
+
+}
+.javascriptText{
+    height: 390px;
+    width: 100%;
+    background-color: darkgray;
+}
+#htmlCss{
+    width: 100%;
+    height: 500px;
+}
+
+.htmlCss{
+    height: 650px;
+    width: 100%;
+
+}
+
+.htmlCssImg{
+     height: 250px;
+     width: 100%;
+     background-color: darkgrey;
+     background-image: url(assets/htmlMobile.png);
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: 50% 50%; 
+     
+}
+.htmlCssText{
+    height: 390px;
+    width: 100%;
+    background-color:darkgrey;
+}
+.buttonHome{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    height: 30px;
+    background-color: white;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+/* le dark mode */
+.dark {
+    background-color: #112F41;
+    color: #ffffff;
+  }
+  
+.dark {
+    background: #144098;
+    color: #fff;
+  }
+  
+@media screen  and (min-width:1024px){
+
+    #php{
+    
+    width: 100%;
+    height: 380px;
+}
+.php{
+    display: flex;
+    height: 350px;
+    width: 100%;
+
+}
+
+.phpImg{
+     height: 350px;
+     width: 40%;
+     background-color: darkgrey;
+}
+.phpText{
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    width: 60%;
+    background-color: darkgray;
+    justify-content: center;
+}
+h2{
+    
+    padding-left: 30px;
+    text-align: left;
+}
+.buttonHome{
+   
+    margin-left: 30px;
+    border-radius: 30px;
+}
+p{
+    padding-left: 30px;
+    text-align: left;
+    margin-right: 100px;
+    
+}
+/* home javascript*/
+#javascript{
+    
+    width: 100%;
+    height: 380px;
+}
+.javascript{
+    display: flex;
+    height: 350px;
+    width: 100%;
+
+}
+
+.javascriptImg{
+     height: 350px;
+     width: 40%;
+     background-color: darkgrey;
+}
+.javascriptText{
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    width: 60%;
+    background-color: darkgrey;
+    justify-content: center;
+}
+
+
+/*home htmlCss*/
+#htmlCss{
+    
+    width: 100%;
+    height: 380px;
+}
+.htmlCss{
+    display: flex;
+    height: 350px;
+    width: 100%;
+
+}
+
+.htmlCssImg{
+     height: 350px;
+     width: 40%;
+     background-color: darkgrey;
+     
+}
+.htmlCssText{
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    width: 60%;
+    background-color: darkgrey;
+    justify-content: center;
+}
+
+}
