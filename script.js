@@ -1,8 +1,7 @@
 // Activation bouton
 
 const filterButtons = document.querySelectorAll('.filterButton');
-
-
+console.log(filterButtons.length);
 
 for (let i = 0; i < filterButtons.length; i++) {
     filterButtons[i].addEventListener('click', function () {
@@ -89,5 +88,46 @@ jeuButton.addEventListener('click', function () {
 
 
 // Affichage "Pas de ressource" texte
-// const avec .sourceinvisble et .difficultéinvisible
-// si const.legth
+
+// Mettre dans une fonction et appeler cette fonction à chaque clique sur bouton filtre 
+
+
+
+function displayNoCardsText() {
+    const sourceInvisible = document.querySelectorAll('.sourceInvisible');
+    console.log(sourceInvisible.length);
+
+    const typeInvisible = document.querySelectorAll('.typeInvisible');
+    console.log(typeInvisible.length);
+
+    const invisibleCards = typeInvisible.length + sourceInvisible.length;
+    console.log(invisibleCards);
+
+    //const invisible = [].concat(sourceInvisible, typeInvisible);    // const invisible avec array contenant .sourceinvisble + .difficultéinvisible
+    //console.log(invisible.length);
+
+    const card = document.getElementsByClassName('card');   // const card avec .card
+    console.log(card.length);
+
+    const noCardsDisplayedText = document.querySelectorAll('.noCard');   // const paragraphe 'no ressource'
+    console.log(noCardsDisplayedText.length);
+
+    const text = document.getElementById('text');
+
+    // si const.length invisible = const card => add class paragraphe visible
+
+    if (invisibleCards === card.length) {
+        text.classList.toggle('visible');
+        console.log("success");
+    }
+    else {
+        console.log('fail');
+        text.classList.toggle('invisible');
+    };
+};
+
+for (let i = 0; i < filterButtons.length; i++) {
+    filterButtons[i].addEventListener('click', function () {
+        displayNoCardsText();
+    })
+};

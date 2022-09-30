@@ -87,16 +87,17 @@ button.active {
 /* section cards ------------------------------------------------------*/
 
 #cards {
-    display: flex;
-    flex-wrap: wrap;
-
+    /* display: flex;
+    flex-wrap: wrap; */
+    display: grid;
+    gap: 32px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .card {
-    width: 100%;
+    min-width: 100px;
     margin-bottom: 24px;
-    height: 20px;
-    /* 320px initial*/
+    height: 320px;
     border: solid 1px black;
     border-radius: 10px;
 }
@@ -112,9 +113,16 @@ button.active {
 }
 
 /* Paragraphe No ressources */
-#noCards {
-    display: none;
+.invisible {
+    border: 1px solid red;
 }
+
+.visible {
+    border: 1px solid green;
+}
+
+/* Paragraphe No ressources devient visible */
+
 
 
 /*footer (to be removed)------------------------------------------------------*/
@@ -126,4 +134,21 @@ footer {
 
 
 /* Responsive  (TBD) ------------------------------------------------------*/
-@media screen and (min-width: 768px) {}
+@media screen and (min-width: 768px) {
+    #cards {
+        /* display: flex;
+        flex-wrap: wrap; */
+        display: grid;
+        gap: 32px;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    #filter {
+        display: flex;
+    }
+
+    .filterSection {
+        margin-right: px
+    }
+
+}
