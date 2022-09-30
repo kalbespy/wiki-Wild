@@ -12,19 +12,20 @@ h2{
     text-align: center;
 }
 #php{
-    width: 100%;
+    width: 300px;
     height: 650px;
+    margin: auto;
 }
 .php{
     height: 600px;
-    width: 100%;
+    width: 300px;
     
 
 }
 
 .phpImg{
      height: 250px;
-     width: 100%;
+     width: 300px;
      background-color: darkgrey;
     /* * background-image: url(assets/phpMobileR.png); */
      background-size: cover;
@@ -34,24 +35,25 @@ h2{
 }
 .phpText{
     height: 390px;
-    width: 100%;
+    width: 300px;
     background-color: darkgrey;
 }
 
 #javascript{
-    width: 100%;
+    width: 300px;
     height: 650px;
+    margin: auto;
 }
 
 .javascript{
     height: 600px;
-    width: 100%;
+    width: 300px;
 
 }
 
 .javascriptImg{
      height: 250px;
-     width: 100%;
+     width: 300px;
      background-color: darkgrey;
      background-image: url(assets/javascriptMobile.png);
      background-size: cover;
@@ -65,19 +67,20 @@ h2{
     background-color: darkgray;
 }
 #htmlCss{
-    width: 100%;
+    width: 300px;
     height: 500px;
+    margin: auto;
 }
 
 .htmlCss{
     height: 650px;
-    width: 100%;
+    width: 300px;
 
 }
 
 .htmlCssImg{
      height: 250px;
-     width: 100%;
+     width: 300px;
      background-color: darkgrey;
      background-image: url(assets/htmlMobile.png);
      background-size: cover;
@@ -87,7 +90,7 @@ h2{
 }
 .htmlCssText{
     height: 390px;
-    width: 100%;
+    width: 300px;
     background-color:darkgrey;
 }
 .buttonHome{
@@ -109,7 +112,7 @@ img{
   }
   
 .dark {
-    background: #144098;
+    background-image: url(assets/theme2.jpg);
     color: #fff;
   }
   
@@ -117,7 +120,7 @@ img{
 
     #php{
     
-    width: 100%;
+    width: 900px;
     height: 380px;
 }
 .php{
@@ -159,7 +162,7 @@ p{
 /* home javascript*/
 #javascript{
     
-    width: 100%;
+    width: 900px;
     height: 380px;
 }
 .javascript{
@@ -187,7 +190,7 @@ p{
 /*home htmlCss*/
 #htmlCss{
     
-    width: 100%;
+    width: 900px;
     height: 380px;
 }
 .htmlCss{
