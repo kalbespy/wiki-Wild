@@ -6,7 +6,7 @@
         <li><a href="" class="nav-a-size position">Javascript</a></li>
         <li><a href="" class="nav-a-size position">CSS</a></li>
     </ul>
-    <img src="image/big-logo-black.svg" alt="logo" class="second-img-nav">
+    <img src="assets/big-logo-black.svg" alt="logo" class="second-img-nav">
 </nav>
 <button type="button" aria-label="toggle curtain navigation" class="nav-toggler">
     <span class="line l1"></span>

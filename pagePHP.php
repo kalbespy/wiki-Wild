@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css" />
-    <title>wikiWild - JS</title>
+    <title>wikiWild - PHP</title>
     <link
         href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,900;1,100;1,500&display=swap"
         rel="stylesheet">
@@ -20,7 +20,7 @@
     <main>
 
     <header>
-        <h1>Javascript</h1>
+        <h1>PHP</h1>
     </header>
 
     <main id="main">
@@ -68,7 +68,7 @@
                     </div>
 
                     <div class="articleDescription">
-                        <h3>Toute la doc Javascript Mozilla</h3>
+                        <h3>Toute la doc PHP Mozilla</h3>
                         <p class="articleText">Retrouvez toute la doc Javascript de Mozilla, une ressource sûr et
                             fiable.
                         </p>
