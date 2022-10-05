@@ -12,7 +12,7 @@
         <div>
         
            <img src="assets/big-logo-black.svg" alt="logo wikiWild" class="img-footer-bot">
-        <a href='/index'>    <img src="assets/logowikiwild.svg" alt="logo wikiWild" class="img-footer-bot"></a>
+        <a href='/index'>   </a>
             <p class="p-footer">Copyright 2022 - wikiWild</p>
         </div>
     </div>
