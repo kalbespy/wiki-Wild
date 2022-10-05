@@ -5,9 +5,6 @@
     font-family: 'Barlow', sans-serif;
 }
 
-body {
-    width: 100vw;
-}
 
 h1 {
     margin-top: 24px;
@@ -16,6 +13,8 @@ h1 {
     letter-spacing: 0px;
     color: #000000;
     opacity: 1;
+    padding-top: 100px;
+    font-size: 50px;
 }
 
 h1.titleHomepage {
@@ -23,7 +22,7 @@ h1.titleHomepage {
 }
 
 h2 {
-    font: 900 50px Barlow;
+    font: 900 40px Barlow;
     margin-top: 0px;
     margin-bottom: 0px;
     text-align: center;
@@ -50,16 +49,15 @@ a {
 nav {
     background: #e2e2e2;
     text-align: center;
-    /* position: fixed; */
     width: 100%;
     min-height: 50vh;
     display: flex;
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
-    border-bottom: black;
-    transform: translateY(-76%);
+    transform: translateY(-80%);
     transition: transform 0.3s cubic-bezier(0.73, 0.11, 0.67, 0.84);
+    box-shadow: 0px 2px 2px rgb(140, 140, 140);
 }
 
 nav.active {
@@ -83,6 +81,7 @@ nav ul {
 
 img.second-img-nav {
     margin-left: 10px;
+    margin-top: 15px;
 }
 
 nav ul li {
@@ -97,7 +96,7 @@ nav ul li {
 .nav-toggler {
     position: fixed;
     z-index: 10;
-    top: 40px;
+    top: 42px;
     right: 25px;
     width: 35px;
     border: none;
@@ -147,7 +146,6 @@ nav ul li {
 }
 
 
-
 /* ---FOOTER--- */
 
 footer {
@@ -179,134 +177,35 @@ ul {
 
 
 
-/* ---BREAKPOINT--- */
-
-@media screen and (max-width: 1024px) {
-
-    /* ---NAV--- */
-    #navbar {
-        position: fixed;
-    }
-
-}
-
-@media screen and (min-width: 1024px) {
-
-    /* ---NAV--- */
-    .nav-toggler {
-        position: inherit;
-        : none;
-    }
-
-    nav {
-        transition: none;
-        max-height: 40px;
-        background: #e2e2e2;
-        width: 100vw;
-        min-height: 80px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        flex-direction: row-reverse;
-        transform: none;
-    }
-
-    nav ul {
-        display: flex;
-        justify-content: space-around;
-        padding: 0;
-        width: 40%;
-    }
-
-    img.second-img-nav {
-        margin: 0;
-        padding: 0 0 0 25px;
-    }
-
-    /* ---FOOTER--- */
-
-    footer {
-        display: flex;
-        flex-direction: row-reverse;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    ul {
-        padding: 15px 0 15px 85px;
-    }
-
-    footer ul {}
-
-    .container-footer {
-        display: flex;
-        flex-direction: row-reverse;
-        align-items: center;
-    }
-
-    .img-footer-top {
-        padding: 0 15px 0 0;
-    }
-
-}
-
 
 /* ---HOMEPAGE--- */
 
 
-#php {
-    width: 300px;
-    height: 650px;
+#homeSection {
+    height: auto;
     margin: auto;
 }
 
-.php {
-    height: 600px;
-    width: 300px;
-
-
+.homeSection {
+    height: auto;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
-.sectionHomeImg {
+.homeImg {
     height: auto;
-    width: 400px;
+    width: auto;
     background-color: #E2E2E2;
-    /* * background-image: url(assets/phpMobileR.png); */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
-
 }
 
 .sectionHomeText {
-    width: 600px;
     background-color: #E2E2E2;
     padding: 25px;
     display: block;
-}
-
-#javascript {
-    width: 300px;
-    height: 650px;
-    margin: auto;
-}
-
-.javascript {
-    height: 600px;
-    width: 300px;
-
-}
-
-
-#htmlCss {
-    width: 300px;
-    height: 500px;
-    margin: auto;
-}
-
-.htmlCss {
-    height: 650px;
-    width: 300px;
+    margin-bottom: 80px;
 }
 
 .buttonHome {
@@ -340,103 +239,50 @@ h1.dark {
 }
 
 
+/* DESKTOP */
+
 @media screen and (min-width:1024px) {
 
-    #php {
-
-        width: 900px;
-        height: 380px;
+    h1 {
+        font-size: 80px;
+        padding-top: 0px;
     }
 
-    .php {
+
+    h2 {
+        font: 50px;
+    }
+
+    #homeSection {
+        width: 1000px;
+    }
+
+    .homeSection {
         display: flex;
-        height: 350px;
-        width: 100%;
-
     }
 
-    .phpImg {
+
+    .sectionHomeText {
+        width: 600px;
+        background-color: #E2E2E2;
+        height: 300px;
+    }
+
+    .filterSection2 {
+        margin-left: 30px;
+    }
+
+
+    .homeImg {
         height: 350px;
         width: 40%;
-        background-color: #E2E2E2;
-    }
-
-    .phpText {
-        display: flex;
-        flex-direction: column;
-        height: 350px;
-        width: 60%;
-        background-color: #E2E2E2;
-        justify-content: center;
     }
 
 
     p {
-        /* padding-left: 30px; */
         text-align: left;
-        /* margin-right: 100px; */
-
     }
 
-    /* home javascript*/
-    #javascript {
-
-        width: 900px;
-        height: 380px;
-    }
-
-    .javascript {
-        display: flex;
-        height: 350px;
-        width: 100%;
-
-    }
-
-    .javascriptImg {
-        height: 350px;
-        width: 40%;
-        background-color: #E2E2E2;
-    }
-
-    .javascriptText {
-        display: flex;
-        flex-direction: column;
-        height: 350px;
-        width: 60%;
-        background-color: #E2E2E2;
-        justify-content: center;
-    }
-
-
-    /*home htmlCss*/
-    #htmlCss {
-
-        width: 900px;
-        height: 380px;
-    }
-
-    .htmlCss {
-        display: flex;
-        height: 350px;
-        width: 100%;
-
-    }
-
-    .htmlCssImg {
-        height: 350px;
-        width: 40%;
-        background-color: #E2E2E2;
-
-    }
-
-    .htmlCssText {
-        display: flex;
-        flex-direction: column;
-        height: 350px;
-        width: 60%;
-        background-color: #E2E2E2;
-        justify-content: center;
-    }
 
 }
 
@@ -540,10 +386,6 @@ section#filter {
     margin-bottom: 24px;
 }
 
-.filterSection2 {
-    margin-left: 30px;
-}
-
 
 .filterSection>h2 {
     margin-bottom: 8px
@@ -568,7 +410,7 @@ section#filter {
 /* // Bloc d'article // */
 
 
-section.article {
+section.articles {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -593,7 +435,7 @@ p.articleText {
 }
 
 
-img {
+.souspageArticle {
     border-radius: 10px 10px 0px 0px;
 }
 
@@ -644,6 +486,88 @@ article:hover {
     transition: 0.2s;
 }
 
+/* ---BREAKPOINT--- */
+
+@media screen and (max-width: 1024px) {
+
+    /* ---NAV--- */
+    #navbar {
+        position: fixed;
+        margin-top: -25px;
+    }
+
+    nav ul {
+        margin-bottom: 30px;
+    }
+
+
+    .btn-dark-mode {
+        margin-top: 25px;
+        margin-left: 25px;
+    }
+
+
+}
+
+@media screen and (min-width: 1024px) {
+
+    /* ---NAV--- */
+    .nav-toggler {
+        position: inherit;
+        : none;
+    }
+
+    nav {
+        transition: none;
+        max-height: 40px;
+        background: #e2e2e2;
+        width: 100vw;
+        min-height: 80px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row-reverse;
+        transform: none;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: space-around;
+        padding: 0;
+        width: 40%;
+    }
+
+    img.second-img-nav {
+        margin: 0;
+        padding: 0 0 0 25px;
+    }
+
+    /* ---FOOTER--- */
+
+    footer {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    ul {
+        padding: 15px 0 15px 85px;
+    }
+
+    footer ul {}
+
+    .container-footer {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+
+    .img-footer-top {
+        padding: 0 15px 0 0;
+    }
+
+}
 
 
 @media screen and (min-width: 768px) {
@@ -660,25 +584,6 @@ article:hover {
         background-color: #E2E2E2;
         color: black;
     }
-
-
-    /* section cards ------------------------------------------------------*/
-
-    /*#cards {
-    display: flex;
-    flex-wrap: wrap; 
-    display: grid;
-    gap: 32px;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-}
-
-.card {
-    min-width: 100px;
-    margin-bottom: 24px;
-    height: 320px;
-    border: solid 1px black;
-    border-radius: 10px;
-}*/
 
     /* cards source invisibles */
     .card.sourceInvisible {
@@ -737,3 +642,5 @@ article:hover {
     h1.dark {
         color: #ffffff;
     }
+
+}
