@@ -566,7 +566,6 @@ article:hover {
     .img-footer-top {
         padding: 0 15px 0 0;
     }
-
 }
 
 
@@ -610,8 +609,105 @@ button.active {
     display: initial;
 }
 
+/* Page About Us */
+
+#aboutSection {
+    height: auto;
+    margin: auto;
+}
+
+.aboutSection {
+    height: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 48px;
+}
+
+.h2AboutUs {
+    margin-bottom: 24px;
+}
+
+.articleAboutUs {
+    width: 225px;
+    height: 350px;
+    background-color: beige;
+    margin-bottom: 20px;
+    margin: auto;
+
+}
+
+.formulaire {
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 32px;
+}
+
+.champs {
+    margin: auto;
+}
 
 
+input,
+textarea {
+    width: 75vw;
+    height: 2em;
+    max-width: 500px;
+    margin-bottom: 8px;
+    padding: 5px;
+    -webkit-box-sizing: border-box;
+    /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;
+    /* Firefox, other Gecko */
+    box-sizing: border-box;
+    /* Opera/IE 8+ */
+}
+
+textarea {
+    resize: none;
+    height: 50px;
+    margin-bottom: 16px;
+}
+
+button.buttonFormulaire {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: black;
+    height: 35px;
+    min-width: 50px;
+    color: white;
+    border-radius: 50px;
+    border: none;
+}
+
+span.submitText {
+    margin: 15px
+}
+
+label {
+    text-align: left;
+
+}
+
+.blockTeam {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.imgTeam {
+    width: 150px;
+}
+
+.articleTeam {
+    height: 450px;
+    width: 225px;
+}
+
+@media screen and (min-width:1024px) {}
 
 
 /* Responsive  (TBD) ------------------------------------------------------*/
@@ -641,6 +737,4 @@ button.active {
 
 h1.dark {
     color: #ffffff;
-}
-
 }
