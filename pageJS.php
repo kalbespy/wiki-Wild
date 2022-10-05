@@ -49,15 +49,15 @@
 
         <!-- Section des articles -->
 
-        <section class="article">
+        <section id="cards" class="articles">
 
 
             <!-- Article 1 -->
 
 
-            <article> <a href='https://developer.mozilla.org/fr/docs/Web/JavaScript' target="_blank">
+            <article class="card wild rtfm"> <a href='https://developer.mozilla.org/fr/docs/Web/JavaScript' target="_blank">
 
-                    <div class="souspageArticle js1">
+                    <div class="souspageArticle js1 ">
 
                         <div class="categoryFilter">
                             <p class="btnFilter"> Wild
@@ -85,7 +85,7 @@
             <!-- Article 2 -->
 
 
-            <article> <a href='https://www.youtube.com/watch?v=N8ap4k_1QEQ&ab_channel=ProgrammingwithMosh'
+            <article class="card wilder video"> <a href='https://www.youtube.com/watch?v=N8ap4k_1QEQ&ab_channel=ProgrammingwithMosh'
                     target="_blank">
 
                     <div class="souspageArticle js2">
@@ -116,7 +116,7 @@
             <!-- Article 3 -->
 
 
-            <article> <a
+            <article class="card wild article"> <a
                     href='https://www.programiz.com/javascript/library/array#:~:text=In%20JavaScript%2C%20Array%20is%20a,default%20or%20custom%20sorting%20rules.'
                     target="_blank">
 
@@ -146,7 +146,7 @@
             <!-- Article 4 -->
 
 
-            <article> <a href='https://developer.mozilla.org/fr/docs/Web/JavaScript' target="_blank">
+            <article class="card wild rtfm"> <a href='https://developer.mozilla.org/fr/docs/Web/JavaScript' target="_blank">
 
                     <div class="souspageArticle js1">
 
@@ -175,7 +175,7 @@
             <!-- Article 5 -->
 
 
-            <article> <a href='https://www.youtube.com/watch?v=N8ap4k_1QEQ&ab_channel=ProgrammingwithMosh'
+            <article class="card wilder video"> <a href='https://www.youtube.com/watch?v=N8ap4k_1QEQ&ab_channel=ProgrammingwithMosh'
                     target="_blank">
 
                     <div class="souspageArticle js2">
@@ -206,7 +206,7 @@
             <!-- Article 6 -->
 
 
-            <article> <a
+            <article class="card wild article"> <a
                     href='https://www.programiz.com/javascript/library/array#:~:text=In%20JavaScript%2C%20Array%20is%20a,default%20or%20custom%20sorting%20rules.'
                     target="_blank">
 
@@ -236,7 +236,7 @@
             <!-- Article 7 -->
 
 
-            <article> <a href='https://developer.mozilla.org/fr/docs/Web/JavaScript' target="_blank">
+            <article class="card wild rtfm"> <a href='https://developer.mozilla.org/fr/docs/Web/JavaScript' target="_blank">
 
                     <div class="souspageArticle js1">
 
@@ -265,7 +265,7 @@
             <!-- Article 8 -->
 
 
-            <article> <a href='https://www.youtube.com/watch?v=N8ap4k_1QEQ&ab_channel=ProgrammingwithMosh'
+            <article class="card wilder video"> <a href='https://www.youtube.com/watch?v=N8ap4k_1QEQ&ab_channel=ProgrammingwithMosh'
                     target="_blank">
 
                     <div class="souspageArticle js2">
@@ -296,7 +296,7 @@
             <!-- Article 9 -->
 
 
-            <article> <a
+            <article class="card wild article"> <a
                     href='https://www.programiz.com/javascript/library/array#:~:text=In%20JavaScript%2C%20Array%20is%20a,default%20or%20custom%20sorting%20rules.'
                     target="_blank">
 
@@ -325,6 +325,10 @@
 
         </section>
 
+        <section id="text" class="noCard">
+            <p> Aucune ressource trouvée avec les filtres choisis. <br>
+                Veuillez sélectionner au minimum un filtre Source et un fitre Type.</p>
+        </section>
 
     </main>
 
