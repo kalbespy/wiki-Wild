@@ -7,6 +7,9 @@
         <li><a href="pageCSS.php" class="nav-a-size position">CSS</a></li>
     </ul>
     <img src="assets/big-logo-black.svg" alt="logo" class="second-img-nav">
+    <a href='/index'>
+    <img src="assets/logowikiwild.svg" alt="logo" class="second-img-nav"></a>
+
 </nav>
 <button type="button" aria-label="toggle curtain navigation" class="nav-toggler">
     <span class="line l1"></span>
