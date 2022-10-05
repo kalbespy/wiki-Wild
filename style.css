@@ -576,71 +576,71 @@ article:hover {
         font-size: 80px;
     }
 
+}
+
+/* bouton filtre désactivé */
+
+button.active {
+    background-color: #E2E2E2;
+    color: black;
+}
+
+/* cards source invisibles */
+.card.sourceInvisible {
+    display: none;
+}
+
+/* cards type invisibles */
+.card.typeInvisible {
+    display: none;
+}
+
+/* Paragraphe No ressources */
+.noCard {
+    display: none;
+}
+
+.noCard>p {
+    margin-left: 35px;
+    margin-bottom: 30px;
+}
+
+/* Paragraphe No ressources devient visible */
+.visible {
+    display: initial;
+}
 
 
-    /* bouton filtre désactivé */
-
-    button.active {
-        background-color: #E2E2E2;
-        color: black;
-    }
-
-    /* cards source invisibles */
-    .card.sourceInvisible {
-        display: none;
-    }
-
-    /* cards type invisibles */
-    .card.typeInvisible {
-        display: none;
-    }
-
-    /* Paragraphe No ressources */
-    .noCard {
-        display: none;
-    }
-
-    .noCard>p {
-        margin-left: 35px;
-        margin-bottom: 30px;
-    }
-
-    /* Paragraphe No ressources devient visible */
-    .visible {
-        display: initial;
-    }
 
 
 
-
-
-    /* Responsive  (TBD) ------------------------------------------------------*/
-    @media screen and (min-width: 768px) {
-        #cards {
+/* Responsive  (TBD) ------------------------------------------------------*/
+@media screen and (min-width: 768px) {
+    /* #cards {
             /* display: flex;
         flex-wrap: wrap; */
-            display: grid;
+    /* display: grid;
             gap: 32px;
             grid-template-columns: repeat(3, minmax(0, 1fr));
-        }
+        } */
 
-        #filter {
-            display: flex;
-        }
+    #filter {
+        display: flex;
+    }
 
-        .filterSection {
+    /* .filterSection {
             margin-right: px
-        }
-    }
+        } */
+}
 
 
-    .dark {
-        background-color: #2D2D2D;
-        color: #ffffff;
-    }
+.dark {
+    background-color: #2D2D2D;
+    color: #ffffff;
+}
 
-    h1.dark {
-        color: #ffffff;
-    }
+h1.dark {
+    color: #ffffff;
+}
 
 }
