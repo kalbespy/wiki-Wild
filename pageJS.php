@@ -54,7 +54,8 @@
             <!-- Article 1 -->
 
 
-            <article> <a href='https://developer.mozilla.org/fr/docs/Web/JavaScript' target="_blank">
+            <article> 
+                <a href='https://developer.mozilla.org/fr/docs/Web/JavaScript' target="_blank">
 
                     <div class="jsArticle js1">
 
@@ -74,8 +75,8 @@
                         </p>
                         <p class="date">29/09/22
                         </p>
+                    </div>
                 </a>
-                </div>
 
             </article>
 
@@ -84,8 +85,8 @@
             <!-- Article 2 -->
 
 
-            <article> <a href='https://www.youtube.com/watch?v=N8ap4k_1QEQ&ab_channel=ProgrammingwithMosh'
-                    target="_blank">
+            <article> 
+                <a href='https://www.youtube.com/watch?v=N8ap4k_1QEQ&ab_channel=ProgrammingwithMosh' target="_blank">
 
                     <div class="jsArticle js2">
 
@@ -106,8 +107,8 @@
                         </p>
                         <p class="date">29/09/22
                         </p>
+                    </div>
                 </a>
-                </div>
 
             </article>
 
@@ -115,8 +116,8 @@
             <!-- Article 3 -->
 
 
-            <article> <a
-                    href='https://www.programiz.com/javascript/library/array#:~:text=In%20JavaScript%2C%20Array%20is%20a,default%20or%20custom%20sorting%20rules.'
+            <article> 
+                <a href='https://www.programiz.com/javascript/library/array#:~:text=In%20JavaScript%2C%20Array%20is%20a,default%20or%20custom%20sorting%20rules.'
                     target="_blank">
 
                     <div class="jsArticle js3">
@@ -136,8 +137,8 @@
                         </p>
                         <p class="date">29/09/22
                         </p>
+                    </div>
                 </a>
-                </div>
 
             </article>
 
@@ -145,7 +146,8 @@
             <!-- Article 4 -->
 
 
-            <article> <a href='https://developer.mozilla.org/fr/docs/Web/JavaScript' target="_blank">
+            <article> 
+                <a href='https://developer.mozilla.org/fr/docs/Web/JavaScript' target="_blank">
 
                     <div class="jsArticle js1">
 
@@ -165,17 +167,17 @@
                         </p>
                         <p class="date">29/09/22
                         </p>
+                    </div>
                 </a>
-                </div>
-
+    
             </article>
 
 
             <!-- Article 5 -->
 
 
-            <article> <a href='https://www.youtube.com/watch?v=N8ap4k_1QEQ&ab_channel=ProgrammingwithMosh'
-                    target="_blank">
+            <article> 
+                <a href='https://www.youtube.com/watch?v=N8ap4k_1QEQ&ab_channel=ProgrammingwithMosh' target="_blank">
 
                     <div class="jsArticle js2">
 
@@ -196,8 +198,9 @@
                         </p>
                         <p class="date">29/09/22
                         </p>
+                    </div>
                 </a>
-                </div>
+                
 
             </article>
 
@@ -205,9 +208,8 @@
             <!-- Article 6 -->
 
 
-            <article> <a
-                    href='https://www.programiz.com/javascript/library/array#:~:text=In%20JavaScript%2C%20Array%20is%20a,default%20or%20custom%20sorting%20rules.'
-                    target="_blank">
+            <article> 
+                <a href='https://www.programiz.com/javascript/library/array#:~:text=In%20JavaScript%2C%20Array%20is%20a,default%20or%20custom%20sorting%20rules.' target="_blank">
 
                     <div class="jsArticle js3">
 
@@ -226,16 +228,17 @@
                         </p>
                         <p class="date">29/09/22
                         </p>
+                    </div>
                 </a>
-                </div>
-
+                
             </article>
 
 
             <!-- Article 7 -->
 
 
-            <article> <a href='https://developer.mozilla.org/fr/docs/Web/JavaScript' target="_blank">
+            <article> 
+                <a href='https://developer.mozilla.org/fr/docs/Web/JavaScript' target="_blank">
 
                     <div class="jsArticle js1">
 
@@ -255,8 +258,8 @@
                         </p>
                         <p class="date">29/09/22
                         </p>
+                    </div>
                 </a>
-                </div>
 
             </article>
 
@@ -264,8 +267,8 @@
             <!-- Article 8 -->
 
 
-            <article> <a href='https://www.youtube.com/watch?v=N8ap4k_1QEQ&ab_channel=ProgrammingwithMosh'
-                    target="_blank">
+            <article> 
+                <a href='https://www.youtube.com/watch?v=N8ap4k_1QEQ&ab_channel=ProgrammingwithMosh' target="_blank">
 
                     <div class="jsArticle js2">
 
@@ -286,8 +289,9 @@
                         </p>
                         <p class="date">29/09/22
                         </p>
+                    </div>
                 </a>
-                </div>
+                
 
             </article>
 
@@ -295,8 +299,8 @@
             <!-- Article 9 -->
 
 
-            <article> <a
-                    href='https://www.programiz.com/javascript/library/array#:~:text=In%20JavaScript%2C%20Array%20is%20a,default%20or%20custom%20sorting%20rules.'
+            <article> 
+                <a href='https://www.programiz.com/javascript/library/array#:~:text=In%20JavaScript%2C%20Array%20is%20a,default%20or%20custom%20sorting%20rules.'
                     target="_blank">
 
                     <div class="jsArticle js3">
@@ -316,8 +320,9 @@
                         </p>
                         <p class="date">29/09/22
                         </p>
+                    </div>
                 </a>
-                </div>
+                
 
             </article>
 

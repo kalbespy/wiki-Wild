@@ -54,28 +54,21 @@
             <!-- Article 1 -->
 
 
-            <article> <a href='https://developer.mozilla.org/fr/docs/Web/JavaScript' target="_blank">
-
+            <article> 
+                <a href='https://www.php.net/' target="_blank">
                     <div class="jsArticle js1">
-
                         <div class="categoryFilter">
-                            <p class="btnFilter"> Wild
-                            </p>
-
-                            <p class="btnFilter"> RTFM
-                            </p>
+                            <p class="btnFilter">Wilder</p>
+                            <p class="btnFilter">RTFM</p>
                         </div>
                     </div>
-
                     <div class="articleDescription">
-                        <h3>Toute la doc PHP Mozilla</h3>
-                        <p class="articleText">Retrouvez toute la doc Javascript de Mozilla, une ressource sûr et
-                            fiable.
-                        </p>
-                        <p class="date">29/09/22
-                        </p>
+                        <h3>Toute la doc PHP !</h3>
+                        <p class="articleText">La doc officielle de PHP - UN MUST !</p>
+                        <p class="date">29/09/22</p>
+                    </div>
                 </a>
-                </div>
+                
 
             </article>
 
@@ -84,60 +77,40 @@
             <!-- Article 2 -->
 
 
-            <article> <a href='https://www.youtube.com/watch?v=N8ap4k_1QEQ&ab_channel=ProgrammingwithMosh'
-                    target="_blank">
-
+            <article> 
+                <a href='https://www.php-fig.org/psr/' target="_blank">
                     <div class="jsArticle js2">
-
                         <div class="categoryFilter">
-                            <p class="btnFilter"> Wilder
-                            </p>
-
-                            <p class="btnFilter"> Vidéo
-                            </p>
+                            <p class="btnFilter"> Wild</p>
+                            <p class="btnFilter">RTFM</p>
                         </div>
                     </div>
-
                     <div class="articleDescription">
-                        <h3>Vidéo pour apprendre à gérer les fonctions</h3>
-                        <p class="articleText">Apprenez à gerer les fonctions de base avec Mosh, un tutoriel facile à
-                            suivre et à
-                            comprendre.
-                        </p>
-                        <p class="date">29/09/22
-                        </p>
+                        <h3>Les PSR - PHP</h3>
+                        <p class="articleText">Les PSR - Guide des bonnes pratiques PHP</p>
+                        <p class="date">29/09/22</p>
+                    </div>
                 </a>
-                </div>
-
             </article>
-
 
             <!-- Article 3 -->
 
-
-            <article> <a
-                    href='https://www.programiz.com/javascript/library/array#:~:text=In%20JavaScript%2C%20Array%20is%20a,default%20or%20custom%20sorting%20rules.'
-                    target="_blank">
+            <article> 
+                <a href='https://phpsandbox.io/' target="_blank">
 
                     <div class="jsArticle js3">
-
                         <div class="categoryFilter">
-                            <p class="btnFilter"> Wild
-                            </p>
-
-                            <p class="btnFilter"> Article
-                            </p>
+                            <p class="btnFilter">Wilder</p>
+                            <p class="btnFilter"> Article</p>
                         </div>
                     </div>
-
                     <div class="articleDescription">
-                        <h3>Liste de toutes les arrays javascript</h3>
-                        <p class="articleText">Toutes les arrays javascript avec leurs fonctions et des exemples.
-                        </p>
+                        <h3>PHPSandbox</h3>
+                        <p class="articleText">PHPSandbox - Coder en PHP sans serveur interne</p>
                         <p class="date">29/09/22
                         </p>
+                    </div>
                 </a>
-                </div>
 
             </article>
 
@@ -145,28 +118,27 @@
             <!-- Article 4 -->
 
 
-            <article> <a href='https://developer.mozilla.org/fr/docs/Web/JavaScript' target="_blank">
+            <article> 
+                <a href='https://www.codewars.com/join?language=php' target="_blank">
 
                     <div class="jsArticle js1">
 
                         <div class="categoryFilter">
-                            <p class="btnFilter"> Wild
+                            <p class="btnFilter"> Wilder
                             </p>
 
-                            <p class="btnFilter"> RTFM
-                            </p>
+                            <p class="btnFilter">JEU</p>
                         </div>
                     </div>
 
                     <div class="articleDescription">
-                        <h3>Toute la doc Javascript Mozilla</h3>
-                        <p class="articleText">Retrouvez toute la doc Javascript de Mozilla, une ressource sûr et
-                            fiable.
-                        </p>
+                        <h3>Pour faire des petits exercices</h3>
+                        <p class="articleText">CodeWars PHP - L'entrainement shonen commence</p>
                         <p class="date">29/09/22
                         </p>
+                    </div>
                 </a>
-                </div>
+                
 
             </article>
 
@@ -174,8 +146,8 @@
             <!-- Article 5 -->
 
 
-            <article> <a href='https://www.youtube.com/watch?v=N8ap4k_1QEQ&ab_channel=ProgrammingwithMosh'
-                    target="_blank">
+            <article> 
+                <a href='https://www.mail-tester.com/' target="_blank">
 
                     <div class="jsArticle js2">
 
@@ -183,21 +155,18 @@
                             <p class="btnFilter"> Wilder
                             </p>
 
-                            <p class="btnFilter"> Vidéo
-                            </p>
+                            <p class="btnFilter">Article</p>
                         </div>
                     </div>
 
                     <div class="articleDescription">
-                        <h3>Vidéo pour apprendre à gérer les fonctions</h3>
-                        <p class="articleText">Apprenez à gerer les fonctions de base avec Mosh, un tutoriel facile à
-                            suivre et à
-                            comprendre.
-                        </p>
+                        <h3>Tester l'indésirabilité de vos spams</h3>
+                        <p class="articleText">Testez l'indésirabilité (spam) de vos emails</p>
                         <p class="date">29/09/22
                         </p>
+                    </div>
                 </a>
-                </div>
+                
 
             </article>
 
@@ -205,15 +174,14 @@
             <!-- Article 6 -->
 
 
-            <article> <a
-                    href='https://www.programiz.com/javascript/library/array#:~:text=In%20JavaScript%2C%20Array%20is%20a,default%20or%20custom%20sorting%20rules.'
+            <article> 
+                <a href='https://www.pierre-giraud.com/php-mysql-apprendre-coder-cours/introduction-fonction/'
                     target="_blank">
 
                     <div class="jsArticle js3">
 
                         <div class="categoryFilter">
-                            <p class="btnFilter"> Wild
-                            </p>
+                            <p class="btnFilter">Wilder</p>
 
                             <p class="btnFilter"> Article
                             </p>
@@ -221,13 +189,13 @@
                     </div>
 
                     <div class="articleDescription">
-                        <h3>Liste de toutes les arrays javascript</h3>
-                        <p class="articleText">Toutes les arrays javascript avec leurs fonctions et des exemples.
-                        </p>
+                        <h3>Les fonctions en PHP !</h3>
+                        <p class="articleText">Introduction en francais aux fonctions</p>
                         <p class="date">29/09/22
                         </p>
+                    </div>
                 </a>
-                </div>
+                
 
             </article>
 
@@ -235,7 +203,7 @@
             <!-- Article 7 -->
 
 
-            <article> <a href='https://developer.mozilla.org/fr/docs/Web/JavaScript' target="_blank">
+            <article> <a href='https://www.youtube.com/watch?v=2Bc9wMsC-7M&ab_channel=CharlieProd' target="_blank">
 
                     <div class="jsArticle js1">
 
@@ -243,20 +211,18 @@
                             <p class="btnFilter"> Wild
                             </p>
 
-                            <p class="btnFilter"> RTFM
-                            </p>
+                            <p class="btnFilter">Vidéo</p>
                         </div>
                     </div>
 
                     <div class="articleDescription">
-                        <h3>Toute la doc Javascript Mozilla</h3>
-                        <p class="articleText">Retrouvez toute la doc Javascript de Mozilla, une ressource sûr et
-                            fiable.
-                        </p>
+                        <h3>Les tableaux !</h3>
+                        <p class="articleText">Les tableaux en PHP pour les nuls</p>
                         <p class="date">29/09/22
                         </p>
+                    </div>
                 </a>
-                </div>
+                
 
             </article>
 
@@ -264,30 +230,25 @@
             <!-- Article 8 -->
 
 
-            <article> <a href='https://www.youtube.com/watch?v=N8ap4k_1QEQ&ab_channel=ProgrammingwithMosh'
+            <article> <a href='https://www.progmatique.fr/article-33-Php-fonctions-manipuler-tableaux.html'
                     target="_blank">
 
                     <div class="jsArticle js2">
 
                         <div class="categoryFilter">
-                            <p class="btnFilter"> Wilder
-                            </p>
-
-                            <p class="btnFilter"> Vidéo
-                            </p>
+                            <p class="btnFilter">Wilder</p>
+                            <p class="btnFilter">Article</p>
                         </div>
                     </div>
 
                     <div class="articleDescription">
                         <h3>Vidéo pour apprendre à gérer les fonctions</h3>
-                        <p class="articleText">Apprenez à gerer les fonctions de base avec Mosh, un tutoriel facile à
-                            suivre et à
-                            comprendre.
-                        </p>
+                        <p class="articleText">Fonctions sur les tableaux: Cheat Sheet</p>
                         <p class="date">29/09/22
                         </p>
+                    </div>
                 </a>
-                </div>
+                
 
             </article>
 
@@ -296,28 +257,25 @@
 
 
             <article> <a
-                    href='https://www.programiz.com/javascript/library/array#:~:text=In%20JavaScript%2C%20Array%20is%20a,default%20or%20custom%20sorting%20rules.'
+                    href='https://www.youtube.com/watch?v=sBfSLbMnId0&ab_channel=DaniKrossing'
                     target="_blank">
 
                     <div class="jsArticle js3">
 
                         <div class="categoryFilter">
-                            <p class="btnFilter"> Wild
-                            </p>
-
-                            <p class="btnFilter"> Article
-                            </p>
+                            <p class="btnFilter">Wild</p>
+                            <p class="btnFilter">Vidéo</p>
                         </div>
                     </div>
 
                     <div class="articleDescription">
-                        <h3>Liste de toutes les arrays javascript</h3>
-                        <p class="articleText">Toutes les arrays javascript avec leurs fonctions et des exemples.
-                        </p>
+                        <h3>Les variables, local et global</h3>
+                        <p class="articleText">Comprendre la portée des variables: Locale vs Globale</p>
                         <p class="date">29/09/22
                         </p>
+                    </div>
                 </a>
-                </div>
+                
 
             </article>
 

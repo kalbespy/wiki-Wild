@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css" />
-    <title>wikiWild - css</title>
+    <title>wikiWild - PHP</title>
     <link
         href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,900;1,100;1,500&display=swap"
         rel="stylesheet">
@@ -20,7 +20,7 @@
     <main>
 
     <header>
-        <h1>CSS</h1>
+        <h1>PHP</h1>
     </header>
 
     <main id="main">
@@ -54,90 +54,61 @@
             <!-- Article 1 -->
 
 
-            <article> <a href='https://developer.mozilla.org/fr/docs/Web/JavaScript' target="_blank">
-
+            <article> 
+                <a href='https://www.php.net/' target="_blank">
                     <div class="jsArticle js1">
-
                         <div class="categoryFilter">
-                            <p class="btnFilter"> Wild
-                            </p>
-
-                            <p class="btnFilter"> RTFM
-                            </p>
+                            <p class="btnFilter">Wild</p>
+                            <p class="btnFilter">RTFM</p>
                         </div>
                     </div>
-
                     <div class="articleDescription">
-                        <h3>Toute la doc CSS Mozilla</h3>
-                        <p class="articleText">Retrouvez toute la doc CSS de Mozilla, une ressource sûr et
-                            fiable.
-                        </p>
-                        <p class="date">29/09/22
-                        </p>
+                        <h3>Toute la doc PHP !</h3>
+                        <p class="articleText">La doc officielle de PHP - UN MUST !</p>
+                        <p class="date">29/09/22</p>
+                    </div>
                 </a>
-                </div>
-
             </article>
-
 
 
             <!-- Article 2 -->
 
 
-            <article> <a href='https://www.youtube.com/watch?v=N8ap4k_1QEQ&ab_channel=ProgrammingwithMosh'
-                    target="_blank">
-
+            <article> 
+                <a href='https://www.php-fig.org/psr/' target="_blank">
                     <div class="jsArticle js2">
-
                         <div class="categoryFilter">
-                            <p class="btnFilter"> Wilder
-                            </p>
-
-                            <p class="btnFilter"> Vidéo
-                            </p>
+                            <p class="btnFilter"> Wilder</p>
+                            <p class="btnFilter">RTFM</p>
                         </div>
                     </div>
-
                     <div class="articleDescription">
-                        <h3>Vidéo pour apprendre à gérer les fonctions</h3>
-                        <p class="articleText">Apprenez à gerer les fonctions de base avec Mosh, un tutoriel facile à
-                            suivre et à
-                            comprendre.
-                        </p>
-                        <p class="date">29/09/22
-                        </p>
+                        <h3>Les PSR - PHP</h3>
+                        <p class="articleText">Les PSR - Guide des bonnes pratiques PHP</p>
+                        <p class="date">29/09/22</p>
+                    </div>
                 </a>
-                </div>
-
             </article>
-
 
             <!-- Article 3 -->
 
-
-            <article> <a
-                    href='https://www.programiz.com/javascript/library/array#:~:text=In%20JavaScript%2C%20Array%20is%20a,default%20or%20custom%20sorting%20rules.'
-                    target="_blank">
+            <article> 
+                <a href='https://www.programiz.com/javascript/library/array#:~:text=In%20JavaScript%2C%20Array%20is%20a,default%20or%20custom%20sorting%20rules.' target="_blank">
 
                     <div class="jsArticle js3">
-
                         <div class="categoryFilter">
-                            <p class="btnFilter"> Wild
-                            </p>
-
-                            <p class="btnFilter"> Article
-                            </p>
+                            <p class="btnFilter">Wild</p>
+                            <p class="btnFilter"> Article</p>
                         </div>
                     </div>
-
                     <div class="articleDescription">
-                        <h3>Liste de toutes les arrays CSS</h3>
+                        <h3>Liste de toutes les arrays javascript</h3>
                         <p class="articleText">Toutes les arrays javascript avec leurs fonctions et des exemples.
                         </p>
                         <p class="date">29/09/22
                         </p>
+                    </div>
                 </a>
-                </div>
 
             </article>
 
@@ -145,7 +116,8 @@
             <!-- Article 4 -->
 
 
-            <article> <a href='https://developer.mozilla.org/fr/docs/Web/JavaScript' target="_blank">
+            <article> 
+                <a href='https://developer.mozilla.org/fr/docs/Web/JavaScript' target="_blank">
 
                     <div class="jsArticle js1">
 
@@ -159,14 +131,15 @@
                     </div>
 
                     <div class="articleDescription">
-                        <h3>Toute la doc CSS Mozilla</h3>
-                        <p class="articleText">Retrouvez toute la doc CSS de Mozilla, une ressource sûr et
+                        <h3>Toute la doc Javascript Mozilla</h3>
+                        <p class="articleText">Retrouvez toute la doc Javascript de Mozilla, une ressource sûr et
                             fiable.
                         </p>
                         <p class="date">29/09/22
                         </p>
+                    </div>
                 </a>
-                </div>
+                
 
             </article>
 
@@ -174,8 +147,8 @@
             <!-- Article 5 -->
 
 
-            <article> <a href='https://www.youtube.com/watch?v=N8ap4k_1QEQ&ab_channel=ProgrammingwithMosh'
-                    target="_blank">
+            <article> 
+                <a href='https://www.youtube.com/watch?v=N8ap4k_1QEQ&ab_channel=ProgrammingwithMosh' target="_blank">
 
                     <div class="jsArticle js2">
 
@@ -196,8 +169,9 @@
                         </p>
                         <p class="date">29/09/22
                         </p>
+                    </div>
                 </a>
-                </div>
+                
 
             </article>
 
@@ -205,8 +179,8 @@
             <!-- Article 6 -->
 
 
-            <article> <a
-                    href='https://www.programiz.com/javascript/library/array#:~:text=In%20JavaScript%2C%20Array%20is%20a,default%20or%20custom%20sorting%20rules.'
+            <article> 
+                <a href='https://www.programiz.com/javascript/library/array#:~:text=In%20JavaScript%2C%20Array%20is%20a,default%20or%20custom%20sorting%20rules.'
                     target="_blank">
 
                     <div class="jsArticle js3">
@@ -226,8 +200,9 @@
                         </p>
                         <p class="date">29/09/22
                         </p>
+                    </div>
                 </a>
-                </div>
+                
 
             </article>
 
@@ -235,28 +210,25 @@
             <!-- Article 7 -->
 
 
-            <article> <a href='https://developer.mozilla.org/fr/docs/Web/JavaScript' target="_blank">
-
+            <article> 
+                <a href='https://developer.mozilla.org/fr/docs/Web/JavaScript' target="_blank">
                     <div class="jsArticle js1">
-
                         <div class="categoryFilter">
-                            <p class="btnFilter"> Wild
-                            </p>
+                            <p class="btnFilter"> Wild </p>
 
-                            <p class="btnFilter"> RTFM
-                            </p>
+                            <p class="btnFilter"> RTFM </p>
                         </div>
                     </div>
 
                     <div class="articleDescription">
-                        <h3>Toute la doc CSS Mozilla</h3>
-                        <p class="articleText">Retrouvez toute la doc CSS de Mozilla, une ressource sûr et
+                        <h3>Toute la doc Javascript Mozilla</h3>
+                        <p class="articleText">Retrouvez toute la doc Javascript de Mozilla, une ressource sûr et
                             fiable.
                         </p>
-                        <p class="date">29/09/22
-                        </p>
+                        <p class="date">29/09/22</p>
+                    </div>
                 </a>
-                </div>
+                
 
             </article>
 
@@ -264,7 +236,8 @@
             <!-- Article 8 -->
 
 
-            <article> <a href='https://www.youtube.com/watch?v=N8ap4k_1QEQ&ab_channel=ProgrammingwithMosh'
+            <article> 
+                <a href='https://www.youtube.com/watch?v=N8ap4k_1QEQ&ab_channel=ProgrammingwithMosh'
                     target="_blank">
 
                     <div class="jsArticle js2">
@@ -273,8 +246,7 @@
                             <p class="btnFilter"> Wilder
                             </p>
 
-                            <p class="btnFilter"> Vidéo
-                            </p>
+                            <p class="btnFilter"> Vidéo </p>
                         </div>
                     </div>
 
@@ -286,8 +258,9 @@
                         </p>
                         <p class="date">29/09/22
                         </p>
+                    </div>
                 </a>
-                </div>
+                
 
             </article>
 
@@ -295,8 +268,8 @@
             <!-- Article 9 -->
 
 
-            <article> <a
-                    href='https://www.programiz.com/javascript/library/array#:~:text=In%20JavaScript%2C%20Array%20is%20a,default%20or%20custom%20sorting%20rules.'
+            <article> 
+                <a href='https://www.programiz.com/javascript/library/array#:~:text=In%20JavaScript%2C%20Array%20is%20a,default%20or%20custom%20sorting%20rules.'
                     target="_blank">
 
                     <div class="jsArticle js3">
@@ -316,8 +289,9 @@
                         </p>
                         <p class="date">29/09/22
                         </p>
+                    </div>
                 </a>
-                </div>
+                
 
             </article>
 
