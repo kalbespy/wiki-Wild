@@ -23,7 +23,9 @@
                 <h2>PHP</h2>
                 <h3>Magnus Carlsen/1994 /8.2.0</h3>
                 <p>PHP est un langage de script utilisé le plus souvent côté serveur : dans cette architecture, le serveur interprète le code PHP des pages web demandées et génère du code (HTML, XHTML, CSS par exemple) et des données (JPEG, GIF, PNG par exemple) pouvant être interprétés et rendus par un navigateur web. PHP peut également générer d'autres formats comme le WML, le SVG et le PDF.</p>
-                <button type="button" class="buttonHome">Voir toutes les docs</button>
+                <a href="pagePHP.php">
+                    <button type="button" class="buttonHome">Voir toutes les docs</button>
+                </a>
             </div>
         </div>
     </section>
