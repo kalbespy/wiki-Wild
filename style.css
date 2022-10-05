@@ -691,15 +691,21 @@ article:hover {
     }
 
     /* Paragraphe No ressources */
-    .invisible {
-        border: 1px solid red;
+    .noCard {
+        display: none;
     }
 
-    .visible {
-        border: 1px solid green;
+    .noCard>p {
+        margin-left: 35px;
+        margin-bottom: 30px;
     }
 
     /* Paragraphe No ressources devient visible */
+    .visible {
+        display: initial;
+    }
+
+
 
 
 
