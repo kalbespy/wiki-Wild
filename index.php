@@ -19,13 +19,14 @@
     <section id="homeSection">
         <div class="homeSection">
             <div class="homeImg" ><img src="assets/php.png" alt="php image"></div>
-            <div class="sectionHomeText">
-                <h2>PHP</h2>
-                <h3>Magnus Carlsen/1994 /8.2.0</h3>
-                <p>PHP est un langage de script utilisé le plus souvent côté serveur : dans cette architecture, le serveur interprète le code PHP des pages web demandées et génère du code (HTML, XHTML, CSS par exemple) et des données (JPEG, GIF, PNG par exemple) pouvant être interprétés et rendus par un navigateur web. PHP peut également générer d'autres formats comme le WML, le SVG et le PDF.</p>
-                <a href="pagePHP.php">
-                    <button type="button" class="buttonHome">Voir toutes les docs</button>
-                </a>
+                <div class="sectionHomeText">
+                    <h2>PHP</h2>
+                    <h3>Magnus Carlsen/1994 /8.2.0</h3>
+                    <p>PHP est un langage de script utilisé le plus souvent côté serveur : dans cette architecture, le serveur interprète le code PHP des pages web demandées et génère du code (HTML, XHTML, CSS par exemple) et des données (JPEG, GIF, PNG par exemple) pouvant être interprétés et rendus par un navigateur web. PHP peut également générer d'autres formats comme le WML, le SVG et le PDF.</p>
+                    <div class="container-a-click">
+                        <a href="pagePHP.php" type="button" class="buttonHome">Voir toutes les docs</a>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -36,7 +37,9 @@
                 <h2>JAVASCRIPT</h2>
                 <h3>Magnus Carlsen/1994 /8.2.0</h3>
                 <p>PHP est un langage de script utilisé le plus souvent côté serveur : dans cette architecture, le serveur interprète le code PHP des pages web demandées et génère du code (HTML, XHTML, CSS par exemple) et des données (JPEG, GIF, PNG par exemple) pouvant être interprétés et rendus par un navigateur web. PHP peut également générer d'autres formats comme le WML, le SVG et le PDF.</p>
-                <button type="button" class="buttonHome">Voir toutes les docs</button>
+                <div class="container-a-click">
+                    <a href="pageJS.php" type="button" class="buttonHome">Voir toutes les docs</a>
+                </div>
             </div>
         </div>
     </section>
@@ -45,11 +48,12 @@
         <div class="homeSection">
            <div class="homeImg"><img src="assets/html.png" alt="php image"></div>
            <div class="sectionHomeText">
-            <h2>CSS</h2>
+                <h2>CSS</h2>
                 <h3>Magnus Carlsen/1994 /8.2.0</h3>
                 <p>PHP est un langage de script utilisé le plus souvent côté serveur : dans cette architecture, le serveur interprète le code PHP des pages web demandées et génère du code (HTML, XHTML, CSS par exemple) et des données (JPEG, GIF, PNG par exemple) pouvant être interprétés et rendus par un navigateur web. PHP peut également générer d'autres formats comme le WML, le SVG et le PDF.</p>
-                <button type="button" class="buttonHome" >Voir toutes les docs</button>
-                
+                <div class="container-a-click">
+                    <a href="pageCSS.php" type="button" class="buttonHome">Voir toutes les docs</a>
+                </div>
             </div>
         </div>
 </section>

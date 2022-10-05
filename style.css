@@ -190,6 +190,7 @@ ul {
     height: auto;
     margin-left: 5%;
     margin-right: 5%;
+    padding-bottom: 35px;
 }
 
 .homeImg {
@@ -203,20 +204,21 @@ ul {
 
 .sectionHomeText {
     background-color: #E2E2E2;
-    padding: 25px;
+    padding: 25px 25px 25px 25px;
     display: block;
-    margin-bottom: 80px;
 }
 
 .buttonHome {
     padding: 25px;
     color: #fff;
     background-color: #000;
-    border-radius: 30px;
-    height: 30px;
+    border-radius: 50px;
+    /* height: 30px; */
     display: flex;
     align-items: center;
     margin-top: 20px;
+    width: 150px;
+    justify-content: center;
 }
 
 img {
@@ -265,7 +267,8 @@ h1.dark {
     .sectionHomeText {
         width: 600px;
         background-color: #E2E2E2;
-        height: 300px;
+        height: 330px;
+        padding-bottom: 0;
     }
 
     .filterSection2 {
@@ -274,7 +277,7 @@ h1.dark {
 
 
     .homeImg {
-        height: 350px;
+        /* height: 350px; */
         width: 40%;
     }
 
@@ -643,4 +646,17 @@ h1.dark {
     color: #ffffff;
 }
 
+/* --------------------ZONE DE TEST-------------------- */
+
+/* .container-text-btn{
+    max-height: 100%;
+    background-color: #E2E2E2;
 }
+
+.container-bloc-btn{
+    padding: 0 0 25px 25px;
+} */
+
+/* .container-a-click{
+    padding-bottom: 25px;
+} */
