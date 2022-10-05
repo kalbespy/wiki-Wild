@@ -1,4 +1,4 @@
-// Activation bouton
+// Menu Burger ==================================================
 
 const hamburgerBouton = document.querySelector(".nav-toggler")
 
@@ -6,35 +6,40 @@ const navigation = document.querySelector("nav")
 
 hamburgerBouton.addEventListener("click", toggleNav)
 
-function toggleNav(){
+function toggleNav() {
     hamburgerBouton.classList.toggle("active")
     navigation.classList.toggle("active")
 }
-let button = document.querySelector('#mode');
-let span   = document.querySelector('span');
 
-if(localStorage.getItem('theme')){
-  if(localStorage.getItem('theme') == 'sombre') {
-    modeSombre();
-  }
+// Dark mode ==================================================
+
+let button = document.querySelector('#mode');
+let span = document.querySelector('span');
+
+if (localStorage.getItem('theme')) {
+    if (localStorage.getItem('theme') == 'sombre') {
+        modeSombre();
+    }
 }
 
 button.addEventListener('click', () => {
-  if(document.body.classList.contains('dark')) {
-    document.body.className = '';
-    span.textContent = 'Thème sombre';
-    localStorage.setItem('theme', 'clair');
-  }
-  else {
-    modeSombre();
-  }
+    if (document.body.classList.contains('dark')) {
+        document.body.className = '';
+        span.textContent = 'Thème sombre';
+        localStorage.setItem('theme', 'clair');
+    }
+    else {
+        modeSombre();
+    }
 });
 
 function modeSombre() {
-  document.body.className = 'dark';
-  span.textContent = 'Thème clair';
-  localStorage.setItem('theme', 'sombre');
+    document.body.className = 'dark';
+    span.textContent = 'Thème clair';
+    localStorage.setItem('theme', 'sombre');
 }
+
+// Filtre Activation bouton ========================================
 
 const filterButtons = document.querySelectorAll('.filterButton');
 console.log(filterButtons.length);
@@ -46,12 +51,13 @@ for (let i = 0; i < filterButtons.length; i++) {
 };
 
 
-// Affichage cartes wild
+// Filtrage des cartes =============================================
 
+// Affichage cartes wild
 const wildButton = document.getElementById('wild');
 const wildCard = document.querySelectorAll('.wild');
 
-console.log(wildCard.length);
+console.log('Nombre de cartes Wild: ' + wildCard.length);
 
 wildButton.addEventListener('click', function () {
     for (let i = 0; i < wildCard.length; i++) {
@@ -60,11 +66,10 @@ wildButton.addEventListener('click', function () {
 })
 
 // Affichage cartes wilder
-
 const wilderButton = document.getElementById('wilder');
 const wilderCard = document.querySelectorAll('.wilder');
 
-console.log(wilderCard.length);
+console.log('Nombre de carte Wilder: ' + wilderCard.length);
 
 wilderButton.addEventListener('click', function () {
     for (let i = 0; i < wilderCard.length; i++) {
@@ -73,11 +78,10 @@ wilderButton.addEventListener('click', function () {
 })
 
 // Affichage cartes rtfm
-
 const rtfmButton = document.getElementById('rtfm');
 const rtfmCard = document.querySelectorAll('.rtfm');
 
-console.log(rtfmCard.length);
+console.log('Nombre de cartes RTFM: ' + rtfmCard.length);
 
 rtfmButton.addEventListener('click', function () {
     for (let i = 0; i < rtfmCard.length; i++) {
@@ -86,11 +90,10 @@ rtfmButton.addEventListener('click', function () {
 })
 
 // Affichage cartes article
-
 const articleButton = document.getElementById('article');
 const articleCard = document.querySelectorAll('.article');
 
-console.log(articleCard.length);
+console.log('Nombre de cartes Article: ' + articleCard.length);
 
 articleButton.addEventListener('click', function () {
     for (let i = 0; i < articleCard.length; i++) {
@@ -102,7 +105,7 @@ articleButton.addEventListener('click', function () {
 const videoButton = document.getElementById('video');
 const videoCard = document.querySelectorAll('.video');
 
-console.log(videoCard.length);
+console.log('Nombre de cartes Vidéo: ' + videoCard.length);
 
 videoButton.addEventListener('click', function () {
     for (let i = 0; i < videoCard.length; i++) {
@@ -114,7 +117,7 @@ videoButton.addEventListener('click', function () {
 const jeuButton = document.getElementById('jeux');
 const jeuCard = document.querySelectorAll('.jeux');
 
-console.log(jeuCard.length);
+console.log('Nombre de cartes Jeu: ' + jeuCard.length);
 
 jeuButton.addEventListener('click', function () {
     for (let i = 0; i < jeuCard.length; i++) {
@@ -123,47 +126,40 @@ jeuButton.addEventListener('click', function () {
 })
 
 
-// Affichage "Pas de ressource" texte
-
-// Mettre dans une fonction et appeler cette fonction à chaque clique sur bouton filtre 
-
-
+// Affichage du texte "Pas de ressource" =================================================
 
 function displayNoCardsText() {
-    const sourceInvisible = document.querySelectorAll('.sourceInvisible');
-    console.log(sourceInvisible.length);
+    // Const tableau contenant les cartes avec "sourceInvisible" ou "typeInvisible"
+    const invisibleCards = document.querySelectorAll('.sourceInvisible, .typeInvisible');
+    console.log("Total cartes invisibles:" + " " + invisibleCards.length);
 
-    const typeInvisible = document.querySelectorAll('.typeInvisible');
-    console.log(typeInvisible.length);
+    // Const tableau contenant toutes les cartes
+    const card = document.getElementsByClassName('card');
+    console.log("Total cartes:" + " " + card.length);
 
-    const invisibleCards = typeInvisible.length + sourceInvisible.length;
-    console.log(invisibleCards);
+    // Const pour référence au texte 'No ressources'
+    const noCardText = document.getElementById('text');
 
-    //const invisible = [].concat(sourceInvisible, typeInvisible);    // const invisible avec array contenant .sourceinvisble + .difficultéinvisible
-    //console.log(invisible.length);
+    // Const pour référence au texte 'No ressources' au statut visible
+    const noCardTextVisible = document.getElementsByClassName('visible');
+    console.log("Text no card visible:" + " " + noCardTextVisible.length);
 
-    const card = document.getElementsByClassName('card');   // const card avec .card
-    console.log(card.length);
-
-    const noCardsDisplayedText = document.querySelectorAll('.noCard');   // const paragraphe 'no ressource'
-    console.log(noCardsDisplayedText.length);
-
-    const text = document.getElementById('text');
-
-    // si const.length invisible = const card => add class paragraphe visible
-
-    if (invisibleCards === card.length) {
-        text.classList.toggle('visible');
-        console.log("success");
-    }
-    else {
-        console.log('fail');
-        text.classList.toggle('invisible');
+    // Condition d'ajout ou retrait de la classe visible sur texte 'Pas de ressources'
+    if (invisibleCards.length === card.length && noCardTextVisible.length === 0) {
+        noCardText.classList.add('visible');
+        console.log("Class 'visible' added");
+    } else if (invisibleCards.length !== card.length && noCardTextVisible.length === 1) {
+        noCardText.classList.remove('visible');
+        console.log("Class 'visible' removed");
+    } else {
+        console.log('No change');
     };
 };
 
+// Boucle sur les boutons, clique sur bouton déclenche fonction "Affichage du texte"
 for (let i = 0; i < filterButtons.length; i++) {
     filterButtons[i].addEventListener('click', function () {
+        console.log("Click ---------------------------------------");
         displayNoCardsText();
     })
 };
