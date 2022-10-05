@@ -6,7 +6,6 @@
         <li><a href="pageJS.php" class="nav-a-size position">Javascript</a></li>
         <li><a href="pageCSS.php" class="nav-a-size position">CSS</a></li>
     </ul>
-    <img src="assets/big-logo-black.svg" alt="logo" class="second-img-nav">
     <a href='/index'>
     <img src="assets/logowikiwild.svg" alt="logo" class="second-img-nav"></a>
 
