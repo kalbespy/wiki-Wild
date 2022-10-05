@@ -49,7 +49,7 @@
 
         <!-- Section des articles -->
 
-        <section class="article">
+        <section class="articles">
 
 
             <!-- Article 1 -->

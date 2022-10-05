@@ -16,9 +16,9 @@
 <?php include("_header.php"); ?>
 
     <h1 class="titleHomepage">Bienvenue sur wikiWild !</h1>
-    <section id="php">
-        <div class="php">
-            <div class="phpImg" ><img src="assets/php.png" alt="php image"></div>
+    <section id="homeSection">
+        <div class="homeSection">
+            <div class="homeImg" ><img src="assets/php.png" alt="php image"></div>
             <div class="sectionHomeText">
                 <h2>PHP</h2>
                 <h3>Magnus Carlsen/1994 /8.2.0</h3>
@@ -27,9 +27,9 @@
             </div>
         </div>
     </section>
-    <section id="javascript"> 
-        <div class="javascript">
-            <div class="javascriptImg"><img src="assets/javascript.png" alt="php image"></div>
+    <section id="homeSection"> 
+        <div class="homeSection">
+            <div class="homeImg"><img src="assets/javascript.png" alt="php image"></div>
             <div class="sectionHomeText">
                 <h2>JAVASCRIPT</h2>
                 <h3>Magnus Carlsen/1994 /8.2.0</h3>
@@ -39,9 +39,9 @@
         </div>
     </section>
 
-<section id="htmlCss">
-        <div class="htmlCss">
-           <div class="htmlCssImg"><img src="assets/html.png" alt="php image"></div>
+    <section id="homeSection">
+        <div class="homeSection">
+           <div class="homeImg"><img src="assets/html.png" alt="php image"></div>
            <div class="sectionHomeText">
             <h2>CSS</h2>
                 <h3>Magnus Carlsen/1994 /8.2.0</h3>
