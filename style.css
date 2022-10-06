@@ -42,7 +42,14 @@ a {
     color: #000000;
 }
 
-
+.buttonHome:hover {
+    box-shadow: 0px 7px 10px 1px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0px 7px 10px 1px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0px 7px 10px 1px rgba(0, 0, 0, 0.5);
+    transition: ease-in-out;
+    scale: 1.03;
+    transition-duration: 200ms;
+}
 
 
 /* ------NAV----- */
@@ -162,13 +169,13 @@ footer {
 }
 
 .img-footer-top {
-    padding: 15px 0 0 0;
+    padding: 15px 0 0 15px;
     width: 50px;
 }
 
 .img-footer-bot {
     width: 200px;
-    margin-left: 25px;
+    margin-left: 15px;
 }
 
 .li-footer {
@@ -196,6 +203,7 @@ ul {
     height: auto;
     margin-left: 5%;
     margin-right: 5%;
+    padding-bottom: 35px;
 }
 
 .homeImg {
@@ -209,20 +217,21 @@ ul {
 
 .sectionHomeText {
     background-color: #E2E2E2;
-    padding: 25px;
+    padding: 25px 25px 25px 25px;
     display: block;
-    margin-bottom: 80px;
 }
 
 .buttonHome {
     padding: 25px;
     color: #fff;
     background-color: #000;
-    border-radius: 30px;
-    height: 30px;
+    border-radius: 50px;
+    /* height: 30px; */
     display: flex;
     align-items: center;
     margin-top: 20px;
+    width: 150px;
+    justify-content: center;
 }
 
 img {
@@ -276,7 +285,8 @@ h1.dark {
     .sectionHomeText {
         width: 600px;
         background-color: #E2E2E2;
-        height: 300px;
+        height: 330px;
+        padding-bottom: 0;
     }
 
     .filterSection2 {
@@ -285,7 +295,7 @@ h1.dark {
 
 
     .homeImg {
-        height: 350px;
+        /* height: 350px; */
         width: 40%;
     }
 
@@ -591,7 +601,6 @@ article:hover {
     .img-footer-top {
         padding: 0 15px 0 0;
     }
-
 }
 
 
@@ -635,6 +644,134 @@ button.active {
     display: initial;
 }
 
+/* Page About Us ===================*/
+
+.titleHomepage {
+    margin-left: 5%;
+    margin-left: 5%;
+}
+
+#aboutSection {
+    height: auto;
+    margin: auto;
+}
+
+.aboutSection {
+    height: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 48px;
+}
+
+.h2AboutUs {
+    margin-bottom: 24px;
+}
+
+.articleAboutUs {
+    width: 225px;
+    height: 350px;
+    background-color: beige;
+    margin-bottom: 20px;
+    margin: auto;
+
+}
+
+/* Team */
+
+.blockTeam {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.imgTeam {
+    width: 150px;
+}
+
+.articleTeam {
+    height: 450px;
+    width: 225px;
+}
+
+/* Formulaire */
+
+.formulaire {
+    display: flex;
+    flex-direction: column;
+    margin-top: 8px;
+    margin-bottom: 32px;
+    align-items: center;
+}
+
+.champs {
+    display: flex;
+    flex-direction: column;
+    font: 500 18px Barlow;
+}
+
+input,
+textarea {
+    border-radius: 3px;
+    border: 1px solid black;
+    width: 75vw;
+    height: 2em;
+    max-width: 500px;
+    margin-bottom: 16px;
+    padding: 5px;
+    -webkit-box-sizing: border-box;
+    /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;
+    /* Firefox, other Gecko */
+    box-sizing: border-box;
+    /* Opera/IE 8+ */
+}
+
+textarea {
+    resize: none;
+    height: 50px;
+    margin-bottom: 16px;
+}
+
+.buttonForm {
+    display: flex;
+    justify-content: center;
+}
+
+.buttonForm button.buttonFormulaire {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: black;
+    height: 35px;
+    min-width: 50px;
+    color: white;
+    border-radius: 50px;
+    border: none;
+}
+
+span.submitText {
+    margin: 15px
+}
+
+/* Thanks ====================== */
+
+.sectionThanksText {
+    background-color: white;
+    padding: 25px;
+    display: block;
+    margin-bottom: 80px;
+}
+
+.thanksMsg {
+    font: 500 40px Barlow;
+}
+
+
+
+@media screen and (min-width:1024px) {}
 
 
 /* Responsive  (TBD) ------------------------------------------------------*/

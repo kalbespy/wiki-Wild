@@ -17,7 +17,6 @@
 
 
 <body>
-
 <?php include("_header.php"); ?>
 
 
@@ -328,9 +327,7 @@
     </main>
 
     <script src="script.js"></script>
-
     <?php include("_footer.php"); ?>
-
 </body>
 
 
