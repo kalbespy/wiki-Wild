@@ -222,7 +222,7 @@ ul {
 }
 
 .buttonHome {
-    padding: 25px;
+    padding: 15px;
     color: #fff;
     background-color: #000;
     border-radius: 50px;
@@ -230,7 +230,7 @@ ul {
     display: flex;
     align-items: center;
     margin-top: 20px;
-    width: 150px;
+    width: 250px;
     justify-content: center;
 }
 
