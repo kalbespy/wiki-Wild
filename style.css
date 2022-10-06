@@ -224,7 +224,7 @@ ul {
 
 .homeImg {
     width: 100%;
-    height: 100%;
+    height: 320px;
     background-color: #E2E2E2;
     background-size: cover;
     background-repeat: no-repeat;
@@ -771,7 +771,7 @@ button.active {
 /* Page About Us ===================*/
 
 .titleHomepage {
-    margin-left: 5%;
+    margin-right: 5%;
     margin-left: 5%;
 }
 
