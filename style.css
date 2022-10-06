@@ -38,7 +38,7 @@ h3 {
 
 a {
     text-decoration: none;
-    
+
 }
 
 .buttonHome:hover {
@@ -67,6 +67,11 @@ nav {
     box-shadow: 0px 2px 2px rgb(140, 140, 140);
 }
 
+.dark nav {
+
+    box-shadow: 0px 2px 2px rgb(0, 0, 0);
+}
+
 nav.active {
     transform: translate(0);
 
@@ -81,9 +86,9 @@ nav.active {
     margin-bottom: 18px;
     width: 200px;
     display: none;
-    margin-left: 10px;
+    margin-left: 25px;
     margin-top: 15px;
-    
+
 }
 
 nav ul {
@@ -187,10 +192,11 @@ footer {
     margin-left: 25px;
 
 }
-.img-footer-DarkMode{
+
+.img-footer-DarkMode {
     width: 200px;
     margin-left: 25px;
-    display:none;
+    display: none;
 
 
 }
@@ -261,7 +267,7 @@ img {
 
 
 .dark {
-    background-color: #2D2D2D;
+    background-color: #1e2029;
     color: black;
 }
 
@@ -271,18 +277,21 @@ h1.dark {
 
 .dark .sectionHomeText {
     background-color: #000;
-    
+
 }
+
 .dark article {
 
-    
+
     background-color: #000;
 
-    
+
 }
-.dark a{
-    color:#ffffff;
+
+.dark a {
+    color: #ffffff;
 }
+
 .dark .second-img-nav {
     display: none;
 }
@@ -291,24 +300,28 @@ h1.dark {
     margin-bottom: 18px;
     width: 200px;
     display: block;
-    
+
 }
+
 .dark nav {
     background-color: #000;
 }
-  
+
 .dark .img-footer-top {
     padding: 0 15px 0 0;
     display: block;
 }
-.dark .img-footer-DarkMode{
+
+.dark .img-footer-DarkMode {
     display: block;
     padding: 0 15px 0 0;
 }
+
 .dark footer {
     background: #000;
 }
-.dark .img-footer-bot{
+
+.dark .img-footer-bot {
     display: none;
 }
 
@@ -320,6 +333,7 @@ h1.dark {
     background: #000000;
     transition: transform 0.3s ease-out, opacity 0.1s ease-out;
 }
+
 .dark .line {
     position: absolute;
     display: block;
@@ -328,18 +342,20 @@ h1.dark {
     background: #ffffff;
     transition: transform 0.3s ease-out, opacity 0.1s ease-out;
 }
+
 .dark .nav-toggler .active .l2 {
     background-color: black;
 }
-.dark .l2{
-    background-color:black;
+
+.dark .l2 {
+    background-color: black;
 }
 
 
 /* DESKTOP */
 
 
-@media screen and (min-width:1024px) {
+@media screen and (min-width:1025px) {
 
     img {
         width: 350px;
@@ -378,7 +394,7 @@ h1.dark {
 
 
     .homeImg {
-        /* height: 350px; */
+        height: 355px;
         width: 40%;
     }
 
@@ -389,7 +405,7 @@ h1.dark {
 
 /* ---BREAKPOINT--- */
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1025px) {
 
     /* ---NAV--- */
     .nav-toggler {
@@ -446,16 +462,18 @@ h1.dark {
     .img-footer-top {
         padding: 0 15px 0 0;
     }
-    .img-footer-DarkMode{
+
+    .img-footer-DarkMode {
         display: none;
         padding: 0 15px 0 0;
     }
+
     .dark .img-footer-bot {
         padding: 0 15px 0 0;
         display: none;
     }
-    
-    
+
+
 
 }
 
@@ -605,9 +623,17 @@ a {
 /* // Hover // */
 
 article:hover {
-    box-shadow: 1px 15px 30px rgb(216, 216, 216);
+    box-shadow: 0px 15px 25px rgba(78, 78, 78, 0.4);
     transform: translateY(-15px);
     transition: 0.2s;
+    /* border: #989898;
+    border-width: 1px;
+    border-style: solid; */
+}
+
+.dark .card:hover {
+    box-shadow: 0px 0px 25px #eb0bff66;
+
 }
 
 /* ---BREAKPOINT--- */
@@ -633,7 +659,7 @@ article:hover {
 
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1025px) {
 
     /* ---NAV--- */
     .nav-toggler {
@@ -862,7 +888,7 @@ span.submitText {
 
 
 
-@media screen and (min-width:1024px) {}
+@media screen and (min-width:1025px) {}
 
 
 /* Responsive  (TBD) ------------------------------------------------------*/
@@ -878,7 +904,7 @@ span.submitText {
 
 
 .dark {
-    background-color: #2D2D2D;
+    background-color: #1e2029;
     color: #ffffff;
 }
 
