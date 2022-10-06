@@ -174,23 +174,20 @@ nav ul li:hover {
 /* ---FOOTER--- */
 
 footer {
-    Envoyer votre padding: 15px 0 0 15px;
-    width: 50px;
+    padding: 15px 0 0 15px;
+    width: 100%;
+    background-color: #E2E2E2;
 }
 
 .img-footer-bot {
     width: 200px;
-
     margin-left: 25px;
-
 }
 
 .img-footer-DarkMode {
     width: 200px;
     margin-left: 25px;
     display: none;
-
-
 }
 
 .li-footer {
@@ -202,7 +199,11 @@ ul {
     padding: 10px 0 10px 15px;
 }
 
-
+.p-footer {
+    margin-left: 25px;
+    margin-top: 10px;
+    padding-bottom: 30px;
+}
 
 
 /* ---HOMEPAGE--- */
@@ -302,6 +303,7 @@ h1.dark {
 .dark .img-footer-top {
     padding: 0 15px 0 0;
     display: block;
+    width: 50px;
 }
 
 .dark .img-footer-DarkMode {
@@ -399,6 +401,10 @@ h1.dark {
     }
 }
 
+.img-footer-top {
+    width: 50px;
+}
+
 /* ---BREAKPOINT--- */
 
 @media screen and (min-width: 1025px) {
@@ -447,7 +453,9 @@ h1.dark {
         padding: 15px 0 15px 85px;
     }
 
-
+    .ul-footer {
+        margin-left: 25px;
+    }
 
     .container-footer {
         display: flex;
@@ -457,6 +465,8 @@ h1.dark {
 
     .img-footer-top {
         padding: 0 15px 0 0;
+        width: 50px;
+        margin-right: 25px;
     }
 
     .img-footer-DarkMode {
@@ -713,6 +723,7 @@ article:hover {
 
     .img-footer-top {
         padding: 0 15px 0 0;
+        width: 50px;
     }
 }
 
