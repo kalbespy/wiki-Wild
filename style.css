@@ -42,7 +42,14 @@ a {
     color: #000000;
 }
 
-
+.buttonHome:hover{
+    box-shadow: 0px 7px 10px 1px rgba(0,0,0,0.5);
+-webkit-box-shadow: 0px 7px 10px 1px rgba(0,0,0,0.5);
+-moz-box-shadow: 0px 7px 10px 1px rgba(0,0,0,0.5);
+    transition: ease-in-out;
+    scale: 1.03;
+    transition-duration: 200ms;
+}
 
 
 /* ------NAV----- */
@@ -162,13 +169,13 @@ footer {
 }
 
 .img-footer-top {
-    padding: 15px 0 0 0;
+    padding: 15px 0 0 15px;
     width: 50px;
 }
 
 .img-footer-bot {
     width: 200px;
-    margin-left: 25px;
+    margin-left: 15px;
 }
 
 .li-footer {
@@ -196,6 +203,7 @@ ul {
     height: auto;
     margin-left: 5%;
     margin-right: 5%;
+    padding-bottom: 35px;
 }
 
 .homeImg {
@@ -209,20 +217,21 @@ ul {
 
 .sectionHomeText {
     background-color: #E2E2E2;
-    padding: 25px;
+    padding: 25px 25px 25px 25px;
     display: block;
-    margin-bottom: 80px;
 }
 
 .buttonHome {
     padding: 25px;
     color: #fff;
     background-color: #000;
-    border-radius: 30px;
-    height: 30px;
+    border-radius: 50px;
+    /* height: 30px; */
     display: flex;
     align-items: center;
     margin-top: 20px;
+    width: 150px;
+    justify-content: center;
 }
 
 img {
@@ -270,7 +279,8 @@ h1.dark {
     .sectionHomeText {
         width: 600px;
         background-color: #E2E2E2;
-        height: 300px;
+        height: 330px;
+        padding-bottom: 0;
     }
 
     .filterSection2 {
@@ -279,7 +289,7 @@ h1.dark {
 
 
     .homeImg {
-        height: 350px;
+        /* height: 350px; */
         width: 40%;
     }
 
@@ -650,4 +660,4 @@ button.active {
 
 h1.dark {
     color: #ffffff;
-}
+
