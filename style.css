@@ -38,7 +38,7 @@ h3 {
 
 a {
     text-decoration: none;
-    
+
 }
 
 .buttonHome:hover {
@@ -83,7 +83,7 @@ nav.active {
     display: none;
     margin-left: 10px;
     margin-top: 15px;
-    
+
 }
 
 nav ul {
@@ -169,15 +169,7 @@ nav ul li:hover {
 /* ---FOOTER--- */
 
 footer {
-    background: #e2e2e2;
-}
-
-.p-footer {
-    padding: 10px 0 10px 25px;
-}
-
-.img-footer-top {
-    padding: 15px 0 0 15px;
+    Envoyer votre padding: 15px 0 0 15px;
     width: 50px;
 }
 
@@ -187,10 +179,11 @@ footer {
     margin-left: 25px;
 
 }
-.img-footer-DarkMode{
+
+.img-footer-DarkMode {
     width: 200px;
     margin-left: 25px;
-    display:none;
+    display: none;
 
 
 }
@@ -271,18 +264,21 @@ h1.dark {
 
 .dark .sectionHomeText {
     background-color: #000;
-    
+
 }
+
 .dark article {
 
-    
+
     background-color: #000;
 
-    
+
 }
-.dark a{
-    color:#ffffff;
+
+.dark a {
+    color: #ffffff;
 }
+
 .dark .second-img-nav {
     display: none;
 }
@@ -291,24 +287,28 @@ h1.dark {
     margin-bottom: 18px;
     width: 200px;
     display: block;
-    
+
 }
+
 .dark nav {
     background-color: #000;
 }
-  
+
 .dark .img-footer-top {
     padding: 0 15px 0 0;
     display: block;
 }
-.dark .img-footer-DarkMode{
+
+.dark .img-footer-DarkMode {
     display: block;
     padding: 0 15px 0 0;
 }
+
 .dark footer {
     background: #000;
 }
-.dark .img-footer-bot{
+
+.dark .img-footer-bot {
     display: none;
 }
 
@@ -320,6 +320,7 @@ h1.dark {
     background: #000000;
     transition: transform 0.3s ease-out, opacity 0.1s ease-out;
 }
+
 .dark .line {
     position: absolute;
     display: block;
@@ -328,24 +329,24 @@ h1.dark {
     background: #ffffff;
     transition: transform 0.3s ease-out, opacity 0.1s ease-out;
 }
+
 .dark .nav-toggler .active .l2 {
     background-color: black;
 }
-.dark .l2{
-    background-color:black;
-}
-.dark .buttonHome {
-    
-    background-color:white;
-    color: black;
 
-    
+.dark .l2 {
+    background-color: black;
+}
+
+.dark .buttonHome {
+    background-color: #ffffff;
+    color: #000000;
 }
 
 /* DESKTOP */
 
 
-@media screen and (min-width:1024px) {
+@media screen and (min-width:1025px) {
 
     img {
         width: 350px;
@@ -395,7 +396,7 @@ h1.dark {
 
 /* ---BREAKPOINT--- */
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1025px) {
 
     /* ---NAV--- */
     .nav-toggler {
@@ -452,16 +453,18 @@ h1.dark {
     .img-footer-top {
         padding: 0 15px 0 0;
     }
-    .img-footer-DarkMode{
+
+    .img-footer-DarkMode {
         display: none;
         padding: 0 15px 0 0;
     }
+
     .dark .img-footer-bot {
         padding: 0 15px 0 0;
         display: none;
     }
-    
-    
+
+
 
 }
 
@@ -639,7 +642,7 @@ article:hover {
 
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1025px) {
 
     /* ---NAV--- */
     .nav-toggler {
@@ -856,19 +859,28 @@ span.submitText {
 /* Thanks ====================== */
 
 .sectionThanksText {
+    display: flex;
+    flex-direction: column;
+}
+
+.sectionThanksText {
     background-color: white;
     padding: 25px;
-    display: block;
     margin-bottom: 80px;
+    margin-top: 80px;
 }
 
 .thanksMsg {
     font: 500 40px Barlow;
 }
 
+.buttonThanks {
+    margin-top: 80px;
+}
 
 
-@media screen and (min-width:1024px) {}
+
+@media screen and (min-width:1025px) {}
 
 
 /* Responsive  (TBD) ------------------------------------------------------*/
