@@ -102,9 +102,7 @@
 
                     <div class="articleDescription">
                         <h3>Apprenez les flexbox de façon ludique</h3>
-                        <p class="articleText">Apprenez à gerer les fonctions de base avec Mosh, un tutoriel facile à
-                            suivre et à
-                            comprendre.
+                        <p class="articleText">Apprenez à gerer les flexbox avec Flexbox Froggy. Un jeu ludique pour bien comprendre les fonctionnements des flexbox.
                         </p>
                         <p class="date">29/09/22
                         </p>
@@ -136,7 +134,7 @@
 
                     <div class="articleDescription">
                         <h3>Gérer les mediaquery / La base du responsive</h3>
-                        <p class="articleText">Toutes les arrays javascript avec leurs fonctions et des exemples.
+                        <p class="articleText">Le site de la w3schools vous apprend à gérer vos mediaQuery afin que votre projet soit aussi beau en mobile qu'en desktop.
                         </p>
                         <p class="date">29/09/22
                         </p>
@@ -163,10 +161,9 @@
 
                     <div class="articleDescription">
                         <h3>Les 30 sélécteurs CSS à connaitre</h3>
-                        <p class="articleText">Retrouvez toute la doc Javascript de Mozilla, une ressource sûr et
-                            fiable.
+                        <p class="articleText">Retrouvez les 30 sélécteurs CSS les plus utiles. De quoi viser le bon élément facilement.
                         </p>
-                        <p class="date">29/09/22
+                        <p class="date">03/10/22
                         </p>
                     </div>
                 </a>
@@ -192,11 +189,11 @@
 
                     <div class="articleDescription">
                         <h3>Les Flexbox en 100s</h3>
-                        <p class="articleText">Apprenez à gerer les fonctions de base avec Mosh, un tutoriel facile à
+                        <p class="articleText">Une vidéo amusante et rapide expliquant les grandes lignes des flexbox.
                             suivre et à
                             comprendre.
                         </p>
-                        <p class="date">29/09/22
+                        <p class="date">03/10/22
                         </p>
                     </div>
                 </a>
@@ -226,9 +223,9 @@
 
                     <div class="articleDescription">
                         <h3>Apprenez les grid de façon ludique </h3>
-                        <p class="articleText">Toutes les arrays javascript avec leurs fonctions et des exemples.
+                        <p class="articleText">Apprenez les grid avec grid garden. Un jeu amusant qui vous rappellera les grandes heures de plant vs zombie.
                         </p>
-                        <p class="date">29/09/22
+                        <p class="date">05/10/22
                         </p>
                     </div>
                 </a>
@@ -238,7 +235,7 @@
 
             <!-- Article 7 -->
 
-            <article class="card wilder article"> <a href='https://css-tricks.com/snippets/css/complete-guide-grid/' target="_blank">
+            <article class="card wilder article"> <a href='https://css-tricks.com/snippets/css/a-guide-to-flexbox/' target="_blank">
 
                     <div class="souspageArticle css7">
 
@@ -252,11 +249,10 @@
                     </div>
 
                     <div class="articleDescription">
-                        <h3>Une ressource pour comprendre facilement les grids</h3>
-                        <p class="articleText">Retrouvez toute la doc Javascript de Mozilla, une ressource sûr et
-                            fiable.
+                        <h3>Comment fonctionne les flexbox</h3>
+                        <p class="articleText">La ressource préféré de Thomas pour comprendre les flexbox. Aussi disponible en poster sur leur site !
                         </p>
-                        <p class="date">29/09/22
+                        <p class="date">05/10/22
                         </p>
                     </div>
                 </a>
@@ -282,11 +278,9 @@
 
                     <div class="articleDescription">
                         <h3>Découverte du CSS: Media query et le "responsive"</h3>
-                        <p class="articleText">Apprenez à gerer les fonctions de base avec Mosh, un tutoriel facile à
-                            suivre et à
-                            comprendre.
+                        <p class="articleText">Une vidéo pour vous apprendre à gérer le responsive de votre site.
                         </p>
-                        <p class="date">29/09/22
+                        <p class="date">05/10/22
                         </p>
                     </div>
                 </a>
@@ -315,9 +309,9 @@
 
                     <div class="articleDescription">
                         <h3>Centrer en CSS: Le guide</h3>
-                        <p class="articleText">Toutes les arrays javascript avec leurs fonctions et des exemples.
+                        <p class="articleText">Centrer un élément en CSS peut être l'épreuve la plus difficile que vous aurez dans votre vie. 
                         </p>
-                        <p class="date">29/09/22
+                        <p class="date">05/10/22
                         </p>
                     </div>
                 </a>

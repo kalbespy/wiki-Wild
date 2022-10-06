@@ -72,8 +72,7 @@
 
                     <div class="articleDescription">
                         <h3>La doc officielle de PHP - UN MUST !</h3>
-                        <p class="articleText">Retrouvez toute la doc Javascript de Mozilla, une ressource sûr et
-                            fiable.
+                        <p class="articleText">L'indispensable doc PHP. Elle est à jour, elle est belle, elle est en français et elle ne comporte pas d'erreurs. 10/10.
                         </p>
                         <p class="date">29/09/22
                         </p>
@@ -103,9 +102,7 @@
 
                     <div class="articleDescription">
                         <h3>Les PSR - Guide des bonnes pratiques PHP</h3>
-                        <p class="articleText">Apprenez à gerer les fonctions de base avec Mosh, un tutoriel facile à
-                            suivre et à
-                            comprendre.
+                        <p class="articleText">Les PSR sont les bonnes pratiques pour écrire en PHP. A consulter au plus vite. 
                         </p>
                         <p class="date">29/09/22
                         </p>
@@ -137,9 +134,9 @@
 
                     <div class="articleDescription">
                         <h3>PHPSandbox - Coder en PHP sans serveur interne</h3>
-                        <p class="articleText">Toutes les arrays javascript avec leurs fonctions et des exemples.
+                        <p class="articleText">Sandbox vous donne la possibilité de coder en PHP rapidement, sans avoir à lancer un serveur.
                         </p>
-                        <p class="date">29/09/22
+                        <p class="date">30/09/22
                         </p>
                     </div>
                 </a>
@@ -164,10 +161,9 @@
 
                     <div class="articleDescription">
                         <h3>CodeWars PHP - L'entrainement shonen commence</h3>
-                        <p class="articleText">Retrouvez toute la doc Javascript de Mozilla, une ressource sûr et
-                            fiable.
+                        <p class="articleText">"La route sera longue et il n'y a pas de raccourci !" Naruto
                         </p>
-                        <p class="date">29/09/22
+                        <p class="date">30/09/22
                         </p>
                     </div>
                 </a>
@@ -193,11 +189,9 @@
 
                     <div class="articleDescription">
                         <h3>Testez l'indésirabilité (spam) de vos emails</h3>
-                        <p class="articleText">Apprenez à gerer les fonctions de base avec Mosh, un tutoriel facile à
-                            suivre et à
-                            comprendre.
+                        <p class="articleText">Une ressource pratique pour tester si vos newsletters, mails de relance, ou mots doux atterrissent dans les spams. 
                         </p>
-                        <p class="date">29/09/22
+                        <p class="date">03/10/22
                         </p>
                     </div>
                 </a>
@@ -227,9 +221,9 @@
 
                     <div class="articleDescription">
                         <h3>Introduction en francais aux fonctions</h3>
-                        <p class="articleText">Toutes les arrays javascript avec leurs fonctions et des exemples.
+                        <p class="articleText">Apprenez les fonctions en francais, une ressource claire et facile à appréhender.
                         </p>
-                        <p class="date">29/09/22
+                        <p class="date">03/10/22
                         </p>
                     </div>
                 </a>
@@ -254,10 +248,9 @@
 
                     <div class="articleDescription">
                         <h3>Les tableaux en PHP pour les nuls</h3>
-                        <p class="articleText">Retrouvez toute la doc Javascript de Mozilla, une ressource sûr et
-                            fiable.
+                        <p class="articleText">PHP, c'est beaucoup de tableaux. Et au plus vite vous saurez les gérer, au plus vite vous serez efficaces :)
                         </p>
-                        <p class="date">29/09/22
+                        <p class="date">05/10/22
                         </p>
                     </div>
                 </a>
@@ -283,11 +276,9 @@
 
                     <div class="articleDescription">
                         <h3>Fonctions sur les tableaux: Cheat Sheet</h3>
-                        <p class="articleText">Apprenez à gerer les fonctions de base avec Mosh, un tutoriel facile à
-                            suivre et à
-                            comprendre.
+                        <p class="articleText">Une cheat Sheet qui présente les fonctions pour créer et manipuler des tableaux de façon concise.
                         </p>
-                        <p class="date">29/09/22
+                        <p class="date">05/10/22
                         </p>
                     </div>
                 </a>
@@ -315,10 +306,10 @@
                     </div>
 
                     <div class="articleDescription">
-                        <h3>Comprendre la portée des variables: Locale vs Globale</h3>
-                        <p class="articleText">Toutes les arrays javascript avec leurs fonctions et des exemples.
+                        <h3>Comprendre la portée des variables</h3>
+                        <p class="articleText">Ne passez pas 3 heures à chercher pourquoi vous n'arrivez pas à appeler votre constante.
                         </p>
-                        <p class="date">29/09/22
+                        <p class="date">05/10/22
                         </p>
                     </div>
                 </a>

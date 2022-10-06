@@ -11,9 +11,9 @@
         </ul>
         <div>
         
-           <img src="assets/big-logo-black.svg" alt="logo wikiWild" class="img-footer-bot">
-        <a href='/index'>   </a>
-            <p class="p-footer">Copyright 2022 - wikiWild</p>
+        <a href='/index'> <img src="assets/big-logo-black.svg" alt="logo wikiWild" class="img-footer-bot">
+          </a>
+            <p class="p-footer">Copyright 2022 - wikiWild©</p>
         </div>
     </div>
 </footer>
