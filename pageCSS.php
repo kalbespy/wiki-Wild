@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="link.css" />
-    <title>wikiWild - JS</title>
+    <title>wikiWild - CSS</title>
    
     <link
         href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,900;1,100;1,500&display=swap"
@@ -15,16 +15,14 @@
     <link rel="icon" href="/assets/favicon.png">
 </head>
 
-
 <body>
-
 <?php include("_header.php"); ?>
 
 
     <main id="main">
 
     <header>
-        <h1>Javascript</h1>
+        <h1>CSS</h1>
     </header>
 
         <section id="filter">
@@ -57,9 +55,9 @@
 
             <!-- Article 1 -->
 
-            <article class="card wild rtfm"> <a href='https://developer.mozilla.org/fr/docs/Web/JavaScript' target="_blank">
+            <article class="card wild rtfm"> <a href='https://developer.mozilla.org/fr/docs/Web/CSS' target="_blank">
 
-                    <div class="souspageArticle js1 ">
+                    <div class="souspageArticle css1 ">
 
                         <div class="categoryFilter">
                             <p class="btnFilter"> Wild
@@ -71,7 +69,7 @@
                     </div>
 
                     <div class="articleDescription">
-                        <h3>Toute la doc Javascript Mozilla</h3>
+                        <h3>La doc CSS Mozilla</h3>
                         <p class="articleText">Retrouvez toute la doc Javascript de Mozilla, une ressource sûr et
                             fiable.
                         </p>
@@ -86,23 +84,23 @@
 
             <!-- Article 2 -->
 
-            <article class="card wilder video"> <a href='https://www.youtube.com/watch?v=N8ap4k_1QEQ&ab_channel=ProgrammingwithMosh'
+            <article class="card wild jeux"> <a href='https://flexboxfroggy.com/#fr'
                     target="_blank">
 
 
-                    <div class="souspageArticle js2">
+                    <div class="souspageArticle css2">
 
                         <div class="categoryFilter">
-                            <p class="btnFilter"> Wilder
+                            <p class="btnFilter"> Wild
                             </p>
 
-                            <p class="btnFilter"> Vidéo
+                            <p class="btnFilter"> Jeu
                             </p>
                         </div>
                     </div>
 
                     <div class="articleDescription">
-                        <h3>Vidéo pour apprendre à gérer les fonctions</h3>
+                        <h3>Apprenez les flexbox de façon ludique</h3>
                         <p class="articleText">Apprenez à gerer les fonctions de base avec Mosh, un tutoriel facile à
                             suivre et à
                             comprendre.
@@ -119,15 +117,15 @@
 
 
 
-            <article class="card wild article"> <a
-                    href='https://www.programiz.com/javascript/library/array#:~:text=In%20JavaScript%2C%20Array%20is%20a,default%20or%20custom%20sorting%20rules.'
+            <article class="card wilder article"> <a
+                    href='https://www.w3schools.com/cssref/css3_pr_mediaquery.asp'
 
                     target="_blank">
 
-                    <div class="souspageArticle js3">
+                    <div class="souspageArticle css3">
 
                         <div class="categoryFilter">
-                            <p class="btnFilter"> Wild
+                            <p class="btnFilter"> Wilder
                             </p>
 
                             <p class="btnFilter"> Article
@@ -136,7 +134,7 @@
                     </div>
 
                     <div class="articleDescription">
-                        <h3>Liste de toutes les arrays javascript</h3>
+                        <h3>Gérer les mediaquery / La base du responsive</h3>
                         <p class="articleText">Toutes les arrays javascript avec leurs fonctions et des exemples.
                         </p>
                         <p class="date">29/09/22
@@ -149,21 +147,21 @@
 
             <!-- Article 4 -->
 
-            <article class="card wild rtfm"> <a href='https://developer.mozilla.org/fr/docs/Web/JavaScript' target="_blank">
+            <article class="card wilder article"> <a href='https://code.tutsplus.com/fr/tutorials/the-30-css-selectors-you-must-memorize--net-16048' target="_blank">
 
-                    <div class="souspageArticle js1">
+                    <div class="souspageArticle css4">
 
                         <div class="categoryFilter">
-                            <p class="btnFilter"> Wild
+                            <p class="btnFilter"> Wilder
                             </p>
 
-                            <p class="btnFilter"> RTFM
+                            <p class="btnFilter"> Article
                             </p>
                         </div>
                     </div>
 
                     <div class="articleDescription">
-                        <h3>Toute la doc Javascript Mozilla</h3>
+                        <h3>Les 30 sélécteurs CSS à connaitre</h3>
                         <p class="articleText">Retrouvez toute la doc Javascript de Mozilla, une ressource sûr et
                             fiable.
                         </p>
@@ -177,13 +175,13 @@
 
             <!-- Article 5 -->
             
-            <article class="card wilder video"> <a href='https://www.youtube.com/watch?v=N8ap4k_1QEQ&ab_channel=ProgrammingwithMosh'
+            <article class="card wild video"> <a href='https://www.youtube.com/watch?v=K74l26pE4YA&ab_channel=Fireship'
                     target="_blank">
 
-                    <div class="souspageArticle js2">
+                    <div class="souspageArticle css5">
 
                         <div class="categoryFilter">
-                            <p class="btnFilter"> Wilder
+                            <p class="btnFilter"> Wild
                             </p>
 
                             <p class="btnFilter"> Vidéo
@@ -192,7 +190,7 @@
                     </div>
 
                     <div class="articleDescription">
-                        <h3>Vidéo pour apprendre à gérer les fonctions</h3>
+                        <h3>Les Flexbox en 100s</h3>
                         <p class="articleText">Apprenez à gerer les fonctions de base avec Mosh, un tutoriel facile à
                             suivre et à
                             comprendre.
@@ -210,23 +208,23 @@
 
 
 
-            <article class="card wild article"> <a
-                    href='https://www.programiz.com/javascript/library/array#:~:text=In%20JavaScript%2C%20Array%20is%20a,default%20or%20custom%20sorting%20rules.'
+            <article class="card wild jeux"> <a
+                    href='https://cssgridgarden.com/#fr'
                     target="_blank">
 
-                    <div class="souspageArticle js3">
+                    <div class="souspageArticle css6">
 
                         <div class="categoryFilter">
                             <p class="btnFilter"> Wild
                             </p>
 
-                            <p class="btnFilter"> Article
+                            <p class="btnFilter"> Jeu
                             </p>
                         </div>
                     </div>
 
                     <div class="articleDescription">
-                        <h3>Liste de toutes les arrays javascript</h3>
+                        <h3>Apprenez les grid de façon ludique </h3>
                         <p class="articleText">Toutes les arrays javascript avec leurs fonctions et des exemples.
                         </p>
                         <p class="date">29/09/22
@@ -239,21 +237,21 @@
 
             <!-- Article 7 -->
 
-            <article class="card wild rtfm"> <a href='https://developer.mozilla.org/fr/docs/Web/JavaScript' target="_blank">
+            <article class="card wilder article"> <a href='https://css-tricks.com/snippets/css/complete-guide-grid/' target="_blank">
 
-                    <div class="souspageArticle js1">
+                    <div class="souspageArticle css7">
 
                         <div class="categoryFilter">
-                            <p class="btnFilter"> Wild
+                            <p class="btnFilter"> Wilder
                             </p>
 
-                            <p class="btnFilter"> RTFM
+                            <p class="btnFilter"> Article
                             </p>
                         </div>
                     </div>
 
                     <div class="articleDescription">
-                        <h3>Toute la doc Javascript Mozilla</h3>
+                        <h3>Une ressource pour comprendre facilement les grids</h3>
                         <p class="articleText">Retrouvez toute la doc Javascript de Mozilla, une ressource sûr et
                             fiable.
                         </p>
@@ -267,13 +265,13 @@
 
             <!-- Article 8 -->
 
-            <article class="card wilder video"> <a href='https://www.youtube.com/watch?v=N8ap4k_1QEQ&ab_channel=ProgrammingwithMosh'
+            <article class="card wild video"> <a href='https://www.youtube.com/watch?v=wu1Sk8iOPnE&list=PLjwdMgw5TTLVjTZQocrMwKicV5wsZlRpj&index=22&ab_channel=Grafikart.fr'
                     target="_blank">
 
-                    <div class="souspageArticle js2">
+                    <div class="souspageArticle css8">
 
                         <div class="categoryFilter">
-                            <p class="btnFilter"> Wilder
+                            <p class="btnFilter"> Wild
                             </p>
 
                             <p class="btnFilter"> Vidéo
@@ -282,7 +280,7 @@
                     </div>
 
                     <div class="articleDescription">
-                        <h3>Vidéo pour apprendre à gérer les fonctions</h3>
+                        <h3>Découverte du CSS: Media query et le "responsive"</h3>
                         <p class="articleText">Apprenez à gerer les fonctions de base avec Mosh, un tutoriel facile à
                             suivre et à
                             comprendre.
@@ -299,11 +297,11 @@
             <!-- Article 9 -->
 
             <article class="card wild article"> <a
-                    href='https://www.programiz.com/javascript/library/array#:~:text=In%20JavaScript%2C%20Array%20is%20a,default%20or%20custom%20sorting%20rules.'
+                    href='https://css-tricks.com/centering-css-complete-guide/'
 
                     target="_blank">
 
-                    <div class="souspageArticle js3">
+                    <div class="souspageArticle css9">
 
                         <div class="categoryFilter">
                             <p class="btnFilter"> Wild
@@ -315,7 +313,7 @@
                     </div>
 
                     <div class="articleDescription">
-                        <h3>Liste de toutes les arrays javascript</h3>
+                        <h3>Centrer en CSS: Le guide</h3>
                         <p class="articleText">Toutes les arrays javascript avec leurs fonctions et des exemples.
                         </p>
                         <p class="date">29/09/22
@@ -335,10 +333,9 @@
         </section>
 
     </main>
-
+    <?php include("_footer.php"); ?>
     <script src="script.js"></script>
 
-    <?php include("_footer.php"); ?>
 
 </body>
 
