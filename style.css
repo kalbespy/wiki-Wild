@@ -67,6 +67,11 @@ nav {
     box-shadow: 0px 2px 2px rgb(140, 140, 140);
 }
 
+.dark nav {
+
+    box-shadow: 0px 2px 2px rgb(0, 0, 0);
+}
+
 nav.active {
     transform: translate(0);
 
@@ -81,7 +86,7 @@ nav.active {
     margin-bottom: 18px;
     width: 200px;
     display: none;
-    margin-left: 10px;
+    margin-left: 25px;
     margin-top: 15px;
 
 }
@@ -254,7 +259,7 @@ img {
 
 
 .dark {
-    background-color: #2D2D2D;
+    background-color: #1e2029;
     color: black;
 }
 
@@ -385,7 +390,7 @@ h1.dark {
 
 
     .homeImg {
-        /* height: 350px; */
+        height: 355px;
         width: 40%;
     }
 
@@ -614,9 +619,17 @@ a {
 /* // Hover // */
 
 article:hover {
-    box-shadow: 1px 15px 30px rgb(216, 216, 216);
+    box-shadow: 0px 15px 25px rgba(78, 78, 78, 0.4);
     transform: translateY(-15px);
     transition: 0.2s;
+    /* border: #989898;
+    border-width: 1px;
+    border-style: solid; */
+}
+
+.dark .card:hover {
+    box-shadow: 0px 0px 25px #eb0bff66;
+
 }
 
 /* ---BREAKPOINT--- */
@@ -879,7 +892,6 @@ span.submitText {
 }
 
 
-
 @media screen and (min-width:1025px) {}
 
 
@@ -896,7 +908,7 @@ span.submitText {
 
 
 .dark {
-    background-color: #2D2D2D;
+    background-color: #1e2029;
     color: #ffffff;
 }
 

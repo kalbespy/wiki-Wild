@@ -10,7 +10,6 @@
 
     <img src="assets/big-logo-black.svg" alt="logo" class="second-img-nav">
     <img src="assets/logoDarkMode.svg" alt="logo" class="logoDarkMode-img-nav">
-    <a href='/index'></a>
 
   
 </nav>
