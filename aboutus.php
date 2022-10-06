@@ -31,16 +31,16 @@
         <h2 class="h2AboutUs">Le projet</h2>
         <p> En tant qu'étudiants à la Wild Code School de Lyon, nous avons réalisé ce site en tant que premier projet en équipe.
           Le projet wikiWild a été pensé dans un but de centralisation des ressources fournies par la Wild et ses Wilders, et ainsi les rendre accessibles de manière rapide et facile.
-        Grâce à son développement nous avons pu développer et consolider nos compétences en HTML, CSS et Javascript. Nous espèrons que vous prendrez autant de plaisir à le parcourir, que nous en avons eu à le développer (LOL).</p>
+        Grâce à son développement nous avons pu développer et consolider nos compétences en HTML, CSS et Javascript. Nous espèrons que vous prendrez autant de plaisir à le parcourir, que nous en avons eu à le développer.</p>
       </div>
 
       <div class="aboutSection">
         <h2 class="h2AboutUs">La wikiWild Team</h2>
         <div class="blockTeam">
-          <img class="imgTeam" src="assets/wikiWildFaceSquare.jpg" alt="Photo de la wiki Wild Team">
-          <img class="imgTeam" src="assets/wikiWildFaceSquare.jpg" alt="Photo de la wiki Wild Team">
-          <img class="imgTeam" src="assets/wikiWildFaceSquare.jpg" alt="Photo de la wiki Wild Team">
-          <img class="imgTeam" src="assets/wikiWildFaceSquare.jpg" alt="Photo de la wiki Wild Team">
+        <a href="https://www.linkedin.com/in/s%C3%A9bastien-papet-288426225/" target="_blank"><img class="imgTeam" src="assets/wikiWildSeb.jpg" alt="Photo de la wiki Wild Team"></a>
+        <a href="https://www.linkedin.com/in/damien-broyer-61b0b9247/" target="_blank">  <img class="imgTeam" src="assets/wikiWildDamien.jpg" alt="Photo de la wiki Wild Team"></a>
+        <a href="https://www.linkedin.com/in/charlie-toussaint-2aa941114/" target="_blank"> <img class="imgTeam" src="assets/wikiWildCharlie.jpg" alt="Photo de la wiki Wild Team"></a>
+        <a href="https://www.linkedin.com/in/kevin-albespy/" target="_blank"> <img class="imgTeam" src="assets/wikiWildKevin.jpg" alt="Photo de la wiki Wild Team"></a>
         </div>
       </div>
 

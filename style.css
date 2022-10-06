@@ -250,6 +250,8 @@ ul {
     justify-content: center;
 }
 
+
+
 img {
     width: 100%;
     height: auto;
@@ -762,8 +764,15 @@ button.active {
 }
 
 .noCard>p {
-    margin-left: 35px;
-    margin-bottom: 30px;
+    margin-top: 50px;
+    margin-bottom: 110px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.blockTeam>a:hover {
+    transform: translateY(-10px);
+    transition: 0.2s;
 }
 
 /* Paragraphe No ressources devient visible */
