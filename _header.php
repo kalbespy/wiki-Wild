@@ -7,6 +7,7 @@
         <li><a href="pageCSS.php" class="nav-a-size position">CSS</a></li>
     </ul>
     <img src="assets/big-logo-black.svg" alt="logo" class="second-img-nav">
+    <img src="assets/logoDarkMode.svg" alt="logo" class="logoDarkMode-img-nav">
     <a href='/index'></a>
 
 </nav>
