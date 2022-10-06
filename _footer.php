@@ -8,7 +8,7 @@
             <li class="li-pos-footer li-footer"><a href="pagePHP.php">PHP</a></li>
             <li class="li-pos-footer li-footer"><a href="pageJS.php">Javascript</a></li>
             <li class="li-pos-footer li-footer"><a href="pageCSS.php">CSS</a></li>
-            <li class="li-pos-footer li-footer"><a href="about.php">About us</a></li>
+            <li class="li-pos-footer li-footer"><a href="aboutus.php">Nous contacter</a></li>
         </ul>
         <div>
         <a href='/index'><img src="assets/logowikiwild.svg" alt="logo wikiWild" class="img-footer-bot"></a>
