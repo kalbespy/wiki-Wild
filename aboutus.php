@@ -50,22 +50,22 @@
         <form class="formulaire" action="thanks.php" method="POST">
           <div class="allChamps">
             <div class="champs">
-              <label class="label" for="nom">Nom</label><br>
+              <label class="label" for="nom">Nom</label>
               <input class="inputFormulaire" type="text" id="nom" name="nom" required>
             </div>
             <div class="champs">
-              <label class="label" for="prenom">Prénom</label><br>
+              <label class="label" for="prenom">Prénom</label>
               <input class="inputFormulaire" type="text" id="prenom" name="prenom" required>
             </div>
             <div class="champs">
-              <label class="label" for="mail">E-mail</label><br>
+              <label class="label" for="mail">E-mail</label>
               <input class="inputFormulaire" type="email" id="mail" name="mail" required>
             </div>
             <div class="champs">
-              <label class="label" for="message">Message</label><br>
+              <label class="label" for="message">Message</label>
               <textarea class="inputFormulaire" id="message" name="message" required></textarea>
             </div>
-            <div class="champs">
+            <div class="buttonForm">
               <button id="formInput" type="submit" class="buttonFormulaire"><span class="submitText">Envoyer votre message</span></button>
             </div>
           </div>

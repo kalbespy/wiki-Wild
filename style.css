@@ -609,7 +609,12 @@ button.active {
     display: initial;
 }
 
-/* Page About Us */
+/* Page About Us ===================*/
+
+.titleHomepage {
+    margin-left: 5%;
+    margin-left: 5%;
+}
 
 #aboutSection {
     height: auto;
@@ -636,57 +641,7 @@ button.active {
 
 }
 
-.formulaire {
-    text-align: center;
-    margin-top: 8px;
-    margin-bottom: 32px;
-}
-
-.champs {
-    margin: auto;
-}
-
-
-input,
-textarea {
-    width: 75vw;
-    height: 2em;
-    max-width: 500px;
-    margin-bottom: 8px;
-    padding: 5px;
-    -webkit-box-sizing: border-box;
-    /* Safari/Chrome, other WebKit */
-    -moz-box-sizing: border-box;
-    /* Firefox, other Gecko */
-    box-sizing: border-box;
-    /* Opera/IE 8+ */
-}
-
-textarea {
-    resize: none;
-    height: 50px;
-    margin-bottom: 16px;
-}
-
-button.buttonFormulaire {
-    margin-right: 10px;
-    margin-bottom: 10px;
-    background-color: black;
-    height: 35px;
-    min-width: 50px;
-    color: white;
-    border-radius: 50px;
-    border: none;
-}
-
-span.submitText {
-    margin: 15px
-}
-
-label {
-    text-align: left;
-
-}
+/* Team */
 
 .blockTeam {
     margin-left: auto;
@@ -706,6 +661,80 @@ label {
     height: 450px;
     width: 225px;
 }
+
+/* Formulaire */
+
+.formulaire {
+    display: flex;
+    flex-direction: column;
+    margin-top: 8px;
+    margin-bottom: 32px;
+    align-items: center;
+}
+
+.champs {
+    display: flex;
+    flex-direction: column;
+    font: 500 18px Barlow;
+}
+
+input,
+textarea {
+    border-radius: 3px;
+    border: 1px solid black;
+    width: 75vw;
+    height: 2em;
+    max-width: 500px;
+    margin-bottom: 16px;
+    padding: 5px;
+    -webkit-box-sizing: border-box;
+    /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;
+    /* Firefox, other Gecko */
+    box-sizing: border-box;
+    /* Opera/IE 8+ */
+}
+
+textarea {
+    resize: none;
+    height: 50px;
+    margin-bottom: 16px;
+}
+
+.buttonForm {
+    display: flex;
+    justify-content: center;
+}
+
+.buttonForm button.buttonFormulaire {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: black;
+    height: 35px;
+    min-width: 50px;
+    color: white;
+    border-radius: 50px;
+    border: none;
+}
+
+span.submitText {
+    margin: 15px
+}
+
+/* Thanks ====================== */
+
+.sectionThanksText {
+    background-color: white;
+    padding: 25px;
+    display: block;
+    margin-bottom: 80px;
+}
+
+.thanksMsg {
+    font: 500 40px Barlow;
+}
+
+
 
 @media screen and (min-width:1024px) {}
 
