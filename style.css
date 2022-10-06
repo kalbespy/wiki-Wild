@@ -349,7 +349,10 @@ h1.dark {
     background-color: #ffffff;
     color: #000000;
 }
-
+.dark #mode{
+    background-color: #fff;
+    color:#000
+}
 /* DESKTOP */
 
 
