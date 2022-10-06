@@ -334,7 +334,13 @@ h1.dark {
 .dark .l2{
     background-color:black;
 }
+.dark .buttonHome {
+    
+    background-color:white;
+    color: black;
 
+    
+}
 
 /* DESKTOP */
 
