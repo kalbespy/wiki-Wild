@@ -12,9 +12,14 @@
         </ul>
         <div>
         
-        <a href='/index'> <img src="assets/big-logo-black.svg" alt="logo wikiWild" class="img-footer-bot">
-          </a>
-            <p class="p-footer">Copyright 2022 - wikiWild©</p>
+
+           <img src="assets/big-logo-black.svg" alt="logo wikiWild" class="img-footer-bot">
+           <img src="assets/logoDarkMode.svg" alt="logo wikiWild" class="img-footer-DarkMode">
+        <a href='/index'>   </a>
+            <p class="p-footer">Copyright 2022 - wikiWild</p>
+
+       
+
         </div>
     </div>
 </footer>

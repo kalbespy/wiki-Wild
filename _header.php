@@ -7,9 +7,12 @@
         <li><a href="pageCSS.php" class="nav-a-size position">CSS</a></li>
         <li><a href="aboutus.php" class="nav-a-size position">Nous contacter</a></li>
     </ul>
-    <a href='/index'><img src="assets/big-logo-black.svg" alt="logo" class="second-img-nav"></a>
-    
 
+    <img src="assets/big-logo-black.svg" alt="logo" class="second-img-nav">
+    <img src="assets/logoDarkMode.svg" alt="logo" class="logoDarkMode-img-nav">
+    <a href='/index'></a>
+
+  
 </nav>
 <button type="button" aria-label="toggle curtain navigation" class="nav-toggler">
     <span class="line l1"></span>
