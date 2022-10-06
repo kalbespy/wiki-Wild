@@ -41,7 +41,14 @@ a {
     color: #000000;
 }
 
-
+.buttonHome:hover{
+    box-shadow: 0px 7px 10px 1px rgba(0,0,0,0.5);
+-webkit-box-shadow: 0px 7px 10px 1px rgba(0,0,0,0.5);
+-moz-box-shadow: 0px 7px 10px 1px rgba(0,0,0,0.5);
+    transition: ease-in-out;
+    scale: 1.03;
+    transition-duration: 200ms;
+}
 
 
 /* ------NAV----- */
