@@ -12,28 +12,19 @@
 </head>
 
 <body>
-
-<?php include("_header.php"); ?>
+<section class="sectionThanks">
 
 <div class="sectionThanksText">
     <h1 class="titleHomepage thanksMsg">Le formulaire a bien été pris en compte.</h1>
     <h1 class="titleHomepage thanksMsg">Merci pour votre message à wikiwild ! </h1>
+    
+    <div class="buttonForm buttonThanks">
+    <a href="index.php"><button id="formInput" type="submit" class="buttonFormulaire"><span class="submitText"> Retour à l'accueil<span></button></a>
 </div>
-    </section>
-    <section id="homeSection"> 
-        <div class="homeSection">
-            <div class="sectionThanksText">
-            </div>
-        </div>
-    </section>
+</div>
+<section>
 
-    <section id="homeSection">
-        <div class="homeSection">
-           <div class="sectionThanksText"></div>
-        </div>
-</section>
-<?php include("_footer.php"); ?>
-<!-- <button  id="mode"> <span>Thème sombre</span></button> -->
+
 <script src="script.js"></script>
 </body>
 </html>

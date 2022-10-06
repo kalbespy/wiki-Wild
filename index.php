@@ -29,7 +29,7 @@
     </section>
     <section id="homeSection"> 
         <div class="homeSection">
-            <div class="homeImg"><img src="assets/javascript.png" alt="php image"></div>
+            <div class="homeImg"><img src="assets/javascript.png" alt="js image"></div>
             <div class="sectionHomeText">
                 <h2>JAVASCRIPT</h2>
                 <h3>	Brendan Eich / 1996</h3>
@@ -41,7 +41,7 @@
 
     <section id="homeSection">
         <div class="homeSection">
-           <div class="homeImg"><img src="assets/html.png" alt="php image"></div>
+           <div class="homeImg"><img src="assets/html.png" alt="cssimage"></div>
            <div class="sectionHomeText">
             <h2>CSS</h2>
                 <h3>CSS Working Group / 1994</h3>

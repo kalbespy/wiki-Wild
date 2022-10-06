@@ -174,15 +174,7 @@ nav ul li:hover {
 /* ---FOOTER--- */
 
 footer {
-    background: #e2e2e2;
-}
-
-.p-footer {
-    padding: 10px 0 10px 25px;
-}
-
-.img-footer-top {
-    padding: 15px 0 0 15px;
+    Envoyer votre padding: 15px 0 0 15px;
     width: 50px;
 }
 
@@ -351,6 +343,10 @@ h1.dark {
     background-color: black;
 }
 
+.dark .buttonHome {
+    background-color: #ffffff;
+    color: #000000;
+}
 
 /* DESKTOP */
 
@@ -876,16 +872,24 @@ span.submitText {
 /* Thanks ====================== */
 
 .sectionThanksText {
+    display: flex;
+    flex-direction: column;
+}
+
+.sectionThanksText {
     background-color: white;
     padding: 25px;
-    display: block;
     margin-bottom: 80px;
+    margin-top: 80px;
 }
 
 .thanksMsg {
     font: 500 40px Barlow;
 }
 
+.buttonThanks {
+    margin-top: 80px;
+}
 
 
 @media screen and (min-width:1025px) {}
