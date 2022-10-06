@@ -224,7 +224,7 @@ ul {
 
 .homeImg {
     width: 100%;
-    height: 320px;
+    height: auto;
     background-color: #E2E2E2;
     background-size: cover;
     background-repeat: no-repeat;
