@@ -174,7 +174,7 @@ nav ul li:hover {
 /* ---FOOTER--- */
 
 footer {
-    padding: 15px 0 0 15px;
+    padding: 15px 0 0 0px;
     width: 100%;
     background-color: #E2E2E2;
 }
@@ -351,10 +351,12 @@ h1.dark {
     background-color: #ffffff;
     color: #000000;
 }
-.dark #mode{
+
+.dark #mode {
     background-color: #fff;
-    color:#000
+    color: #000
 }
+
 /* DESKTOP */
 
 
@@ -605,7 +607,7 @@ p.articleText {
 }
 
 a {
-    z-index: 10;
+    /* z-index: 10; */
     text-decoration: none;
     color: #000;
 }
